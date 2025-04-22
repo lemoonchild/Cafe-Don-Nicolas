@@ -14,4 +14,4 @@ const menuItemSchema = new Schema({
 menuItemSchema.index({ name: 1, restaurant_id: 1 });
 menuItemSchema.index({ ingredients: 1 });
 
-export default model("MenuItem", menuItemSchema);
+export default model("MenuItem", menuItemSchema, "MenuItems");

@@ -13,4 +13,4 @@ const userSchema = new Schema({
 userSchema.index({ name: "text" });
 userSchema.index({ location: "2dsphere" });
 
-export default model("User", userSchema);
+export default model("User", userSchema, "Users");

@@ -12,4 +12,4 @@ const reviewSchema = new Schema({
 reviewSchema.index({ restaurant_id: 1, rating: -1 });
 reviewSchema.index({ comment: "text" });
 
-export default model("Review", reviewSchema);
+export default model("Review", reviewSchema, "Reviews");

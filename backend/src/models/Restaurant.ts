@@ -18,4 +18,4 @@ const restaurantSchema = new Schema({
 restaurantSchema.index({ name: "text" });
 restaurantSchema.index({ location: "2dsphere" });
 
-export default model("Restaurant", restaurantSchema);
+export default model("Restaurant", restaurantSchema, "Restaurants");

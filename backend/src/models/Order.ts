@@ -23,4 +23,4 @@ const orderSchema = new Schema({
 orderSchema.index({ user_id: 1, date: -1 });
 orderSchema.index({ status: "text" });
 
-export default model("Order", orderSchema);
+export default model("Order", orderSchema, "Orders");
