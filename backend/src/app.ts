@@ -1,7 +1,7 @@
-import express from 'express';
-import mongoose from 'mongoose';
-import cors from 'cors';
-import dotenv from 'dotenv';
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import { connectDB } from "./config/db.ts";
 
 dotenv.config();
 
@@ -11,9 +11,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
-mongoose.connect(process.env.MONGO_URI || '')
-  .then(() => console.log('MongoDB conectado'))
-  .catch(err => console.error(err));
+connectDB();
 
 //app.get('/', (_, res) => res.send('API funcionando 🚀'));
 
