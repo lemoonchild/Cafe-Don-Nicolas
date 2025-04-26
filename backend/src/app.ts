@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import { connectDB } from "@config/db.ts";
 import userRoutes from "@routes/userRoutes.ts";
 import restaurantRoutes from "@routes/restaurantRoutes.ts";
+import menuItemsRoutes from "@routes/menuItemsRoutes.ts";
 
 dotenv.config();
 
@@ -20,6 +21,7 @@ app.get("/", (_: Request, res: Response) => {
 });
 
 app.use("/api/users", userRoutes);
-app.use("/api/restaurants", restaurantRoutes); // Cambia esto por las rutas de restaurantes
+app.use("/api/restaurants", restaurantRoutes); 
+app.use("/api/menu-items", menuItemsRoutes);
 
 app.listen(PORT, () => console.log(`Servidor en http://localhost:${PORT}`));
