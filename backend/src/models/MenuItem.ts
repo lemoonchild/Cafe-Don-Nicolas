@@ -11,6 +11,7 @@ const menuItemSchema = new Schema({
   image_id: { type: Types.ObjectId, ref: "fs.files" },
 });
 
+menuItemSchema.index({ name: "text", description: "text", ingredients: "text", category: "text" });
 menuItemSchema.index({ name: 1, restaurant_id: 1 });
 menuItemSchema.index({ ingredients: 1 });
 
