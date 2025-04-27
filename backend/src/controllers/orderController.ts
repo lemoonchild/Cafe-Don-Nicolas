@@ -87,6 +87,21 @@ export const deleteOrder = async (req: Request, res: Response) => {
   res.json({ message: "Orden eliminada correctamente" });
 };
 
+export const createManyOrders = async (req: Request, res: Response) => {
+  const { items } = req.body;
+
+  if (!items || !Array.isArray(items) || items.length === 0) {
+    return res.status(400).json({ message: "Debes enviar 'items' como un array no vacío." });
+  }
+
+  try {
+    const result = await Order.insertMany(items);
+    res.status(201).json({ message: `Se crearon ${result.length} ordenes.`, result });
+  } catch (error) {
+    res.status(500).json({ message: "Error al crear ordenes.", error });
+  }
+};
+
 export const updateManyOrders = async (req: Request, res: Response) => {
   const { filter, update } = req.body;
 

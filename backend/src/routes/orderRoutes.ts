@@ -9,6 +9,8 @@ import {
   updateManyOrdersByIds,
   deleteManyOrders,
   deleteManyOrdersByIds,
+  createManyOrders,
+
 } from "@controllers/orderController";
 import { asyncHandler } from "@middlewares/asyncHandler";
 import { validateObjectId } from "@middlewares/validateObjectId";
@@ -25,5 +27,6 @@ router.post("/update-many", asyncHandler(updateManyOrders));
 router.post("/update-many-by-ids", asyncHandler(updateManyOrdersByIds));
 router.post("/delete-many", asyncHandler(deleteManyOrders));
 router.post("/delete-many-by-ids", asyncHandler(deleteManyOrdersByIds));
+router.post("/create-many", asyncHandler(createManyOrders));
 
 export default router;

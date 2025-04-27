@@ -148,6 +148,21 @@ export const deleteRestaurant = async (req: Request, res: Response) => {
   res.json({ message: "Restaurante eliminado correctamente" });
 };
 
+export const createManyRestaurants = async (req: Request, res: Response) => {
+  const { items } = req.body;
+
+  if (!items || !Array.isArray(items) || items.length === 0) {
+    return res.status(400).json({ message: "Debes enviar 'items' como un array no vacío." });
+  }
+
+  try {
+    const result = await Restaurant.insertMany(items);
+    res.status(201).json({ message: `Se crearon ${result.length} restaurantes.`, result });
+  } catch (error) {
+    res.status(500).json({ message: "Error al crear restaurantes.", error });
+  }
+};
+
 export const updateManyRestaurants = async (req: Request, res: Response) => {
   const { filter, update } = req.body;
 

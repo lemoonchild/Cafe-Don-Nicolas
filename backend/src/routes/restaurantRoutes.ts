@@ -9,6 +9,7 @@ import {
   updateManyRestaurantsByIds,
   deleteManyRestaurants,
   deleteManyRestaurantsByIds,
+  createManyRestaurants,
 } from "@controllers/restaurantController";
 import { asyncHandler } from "@middlewares/asyncHandler";
 import { validateObjectId } from "@middlewares/validateObjectId";
@@ -25,5 +26,6 @@ router.post("/update-many", asyncHandler(updateManyRestaurants));
 router.post("/update-many-by-ids", asyncHandler(updateManyRestaurantsByIds));
 router.post("/delete-many", asyncHandler(deleteManyRestaurants));
 router.post("/delete-many-by-ids", asyncHandler(deleteManyRestaurantsByIds));
+router.post("/create-many", asyncHandler(createManyRestaurants));
 
 export default router;

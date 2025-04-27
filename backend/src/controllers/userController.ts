@@ -156,6 +156,21 @@ export const deleteUser = async (req: Request, res: Response) => {
   }
 };
 
+export const createManyUsers = async (req: Request, res: Response) => {
+  const { items } = req.body;
+
+  if (!items || !Array.isArray(items) || items.length === 0) {
+    return res.status(400).json({ message: "Debes enviar 'items' como un array no vacío." });
+  }
+
+  try {
+    const result = await User.insertMany(items);
+    res.status(201).json({ message: `Se crearon ${result.length} usuarios.`, result });
+  } catch (error) {
+    res.status(500).json({ message: "Error al crear usuarios.", error });
+  }
+};
+
 export const updateManyUsers = async (req: Request, res: Response) => {
   const { filter, update } = req.body;
 

@@ -95,6 +95,21 @@ export const deleteReview = async (req: Request, res: Response) => {
   res.json({ message: "Reseña eliminada correctamente" });
 };
 
+export const createManyReviews = async (req: Request, res: Response) => {
+  const { items } = req.body;
+
+  if (!items || !Array.isArray(items) || items.length === 0) {
+    return res.status(400).json({ message: "Debes enviar 'items' como un array no vacío." });
+  }
+
+  try {
+    const result = await Review.insertMany(items);
+    res.status(201).json({ message: `Se crearon ${result.length} reviews.`, result });
+  } catch (error) {
+    res.status(500).json({ message: "Error al crear reviews.", error });
+  }
+};
+
 export const updateManyReviews = async (req: Request, res: Response) => {
   const { filter, update } = req.body;
 

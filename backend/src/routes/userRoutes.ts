@@ -9,6 +9,7 @@ import {
   updateManyUsersByIds,
   deleteManyUsers,
   deleteManyUsersByIds,
+  createManyUsers,
 } from "@controllers/userController.ts";
 import { asyncHandler } from "@middlewares/asyncHandler.ts";
 import { validateObjectId } from "@middlewares/validateObjectId.ts";
@@ -25,5 +26,6 @@ router.post("/update-many", asyncHandler(updateManyUsers));
 router.post("/update-many-by-ids", asyncHandler(updateManyUsersByIds));
 router.post("/delete-many", asyncHandler(deleteManyUsers));
 router.post("/delete-many-by-ids", asyncHandler(deleteManyUsersByIds));
+router.post("/create-many", asyncHandler(createManyUsers));
 
 export default router;

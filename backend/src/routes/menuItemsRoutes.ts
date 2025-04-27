@@ -5,6 +5,7 @@ import {
     createMenuItem,
     updateMenuItem,
     deleteMenuItem,
+    createManyMenuItems,
     updateManyMenuItems,
     updateManyMenuItemsByIds,   
     deleteManyMenuItems,
@@ -25,5 +26,6 @@ router.post("/update-many", asyncHandler(updateManyMenuItems));
 router.post("/update-many-by-ids", asyncHandler(updateManyMenuItemsByIds));
 router.post("/delete-many", asyncHandler(deleteManyMenuItems));
 router.post("/delete-many-by-ids", asyncHandler(deleteManyMenuItemsByIds));
+router.post("/create-many", asyncHandler(createManyMenuItems));
 
 export default router;
