@@ -16,6 +16,7 @@ export const getUsers = async (req: Request, res: Response) => {
       skip,
       email,
       hasLocation,
+      fields,
     } = req.query;
 
     const query: any = {};
@@ -44,6 +45,16 @@ export const getUsers = async (req: Request, res: Response) => {
         },
       ];
 
+      if (fields) {
+        const project = Object.fromEntries(
+          fields
+            .toString()
+            .split(",")
+            .map((f) => [f, 1])
+        );
+        pipeline.push({ $project: project });
+      }
+
       if (sort) {
         pipeline.push({
           $sort: { [sort.toString()]: order === "desc" ? -1 : 1 },
@@ -63,6 +74,17 @@ export const getUsers = async (req: Request, res: Response) => {
       return res
         .status(200)
         .json({ msg: "Usuarios cercanos obtenidos correctamente.", result });
+    }
+
+    // Proyección de campos
+    if (fields) {
+      const projection = Object.fromEntries(
+        fields
+          .toString()
+          .split(",")
+          .map((f) => [f, 1])
+      );
+      cursor = cursor.select(projection);
     }
 
     //Sort

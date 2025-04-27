@@ -15,11 +15,15 @@ export const getReviews = async (req: Request, res: Response) => {
     order,
     limit,
     skip,
+    fields,
   } = req.query;
 
   let query: any = {};
 
-  if (restaurant_id && mongoose.Types.ObjectId.isValid(restaurant_id.toString())) {
+  if (
+    restaurant_id &&
+    mongoose.Types.ObjectId.isValid(restaurant_id.toString())
+  ) {
     query.restaurant_id = restaurant_id;
   }
 
@@ -45,7 +49,19 @@ export const getReviews = async (req: Request, res: Response) => {
 
   let cursor = Review.find(query);
 
-  if (sort) cursor = cursor.sort({ [sort.toString()]: order === "desc" ? -1 : 1 });
+  // Proyección de campos
+  if (fields) {
+    const projection = Object.fromEntries(
+      fields
+        .toString()
+        .split(",")
+        .map((f) => [f, 1])
+    );
+    cursor = cursor.select(projection);
+  }
+
+  if (sort)
+    cursor = cursor.sort({ [sort.toString()]: order === "desc" ? -1 : 1 });
   if (limit) cursor = cursor.limit(parseInt(limit.toString()));
   if (skip) cursor = cursor.skip(parseInt(skip.toString()));
 
@@ -66,7 +82,9 @@ export const createReview = async (req: Request, res: Response) => {
 };
 
 export const updateReview = async (req: Request, res: Response) => {
-  const review = await Review.findByIdAndUpdate(req.params.id, req.body, { new: true });
+  const review = await Review.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+  });
   if (!review) return res.status(404).json({ message: "Reseña no encontrada" });
   res.json(review);
 };
