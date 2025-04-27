@@ -103,3 +103,54 @@ export const deleteMenuItem = async (req: Request, res: Response) => {
     return res.status(404).json({ message: "Producto no encontrado" });
   res.json({ message: "Producto eliminado correctamente" });
 };
+
+export const updateManyMenuItems = async (req: Request, res: Response) => {
+  const { filter, update } = req.body;
+
+  if (!filter || !update) {
+    return res.status(400).json({ message: "Debes enviar 'filter' y 'update'." });
+  }
+
+  const result = await MenuItem.updateMany(filter, update);
+  res.json({ message: `Se actualizaron ${result.modifiedCount} productos.`, result });
+};
+
+export const updateManyMenuItemsByIds = async (req: Request, res: Response) => {
+  const { ids, update } = req.body;
+
+  if (!ids || !Array.isArray(ids) || !update) {
+    return res.status(400).json({ message: "Debes enviar 'ids' (array) y 'update'." });
+  }
+
+  const result = await MenuItem.updateMany(
+    { _id: { $in: ids } },
+    update
+  );
+  res.json({ message: `Se actualizaron ${result.modifiedCount} productos.`, result });
+};
+
+export const deleteManyMenuItems = async (req: Request, res: Response) => {
+  const { filter } = req.body;
+
+  if (!filter) {
+    return res.status(400).json({ message: "Debes enviar 'filter'." });
+  }
+
+  const result = await MenuItem.deleteMany(filter);
+  res.json({ message: `Se eliminaron ${result.deletedCount} productos.`, result });
+};
+
+export const deleteManyMenuItemsByIds = async (req: Request, res: Response) => {
+  const { ids } = req.body;
+
+  if (!ids || !Array.isArray(ids)) {
+    return res.status(400).json({ message: "Debes enviar 'ids' (array)." });
+  }
+
+  const result = await MenuItem.deleteMany(
+    { _id: { $in: ids } }
+  );
+  res.json({ message: `Se eliminaron ${result.deletedCount} productos.`, result });
+};
+
+

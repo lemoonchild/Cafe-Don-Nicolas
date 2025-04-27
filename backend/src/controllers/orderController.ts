@@ -86,3 +86,52 @@ export const deleteOrder = async (req: Request, res: Response) => {
   if (!order) return res.status(404).json({ message: "Orden no encontrada" });
   res.json({ message: "Orden eliminada correctamente" });
 };
+
+export const updateManyOrders = async (req: Request, res: Response) => {
+  const { filter, update } = req.body;
+
+  if (!filter || !update) {
+    return res.status(400).json({ message: "Debes enviar 'filter' y 'update'." });
+  }
+
+  const result = await Order.updateMany(filter, update);
+  res.json({ message: `Se actualizaron ${result.modifiedCount} órdenes.`, result });
+};
+
+export const updateManyOrdersByIds = async (req: Request, res: Response) => {
+  const { ids, update } = req.body;
+
+  if (!ids || !Array.isArray(ids) || !update) {
+    return res.status(400).json({ message: "Debes enviar 'ids' (array) y 'update'." });
+  }
+
+  const result = await Order.updateMany(
+    { _id: { $in: ids } },
+    update
+  );
+  res.json({ message: `Se actualizaron ${result.modifiedCount} órdenes.`, result });
+};
+
+export const deleteManyOrders = async (req: Request, res: Response) => {
+  const { filter } = req.body;
+
+  if (!filter) {
+    return res.status(400).json({ message: "Debes enviar 'filter'." });
+  }
+
+  const result = await Order.deleteMany(filter);
+  res.json({ message: `Se eliminaron ${result.deletedCount} órdenes.`, result });
+};
+
+export const deleteManyOrdersByIds = async (req: Request, res: Response) => {
+  const { ids } = req.body;
+
+  if (!ids || !Array.isArray(ids)) {
+    return res.status(400).json({ message: "Debes enviar 'ids' (array)." });
+  }
+
+  const result = await Order.deleteMany(
+    { _id: { $in: ids } }
+  );
+  res.json({ message: `Se eliminaron ${result.deletedCount} órdenes.`, result });
+};
