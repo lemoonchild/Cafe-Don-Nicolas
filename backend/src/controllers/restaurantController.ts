@@ -73,6 +73,24 @@ export const getRestaurants = async (req: Request, res: Response) => {
       pipeline.push({ $project: project });
     }
 
+    if (sort) {
+      pipeline.push({
+        $sort: { [sort.toString()]: order === "desc" ? -1 : 1 },
+      });
+    }
+
+    if (skip) {
+      pipeline.push({
+        $skip: parseInt(skip.toString()),
+      });
+    }
+
+    if (limit) {
+      pipeline.push({
+        $limit: parseInt(limit.toString()),
+      });
+    }
+
     cursor = Restaurant.aggregate(pipeline);
     const results = await cursor.exec();
     return res.json(results);

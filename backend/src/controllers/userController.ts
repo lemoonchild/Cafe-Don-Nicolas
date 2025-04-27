@@ -31,7 +31,8 @@ export const getUsers = async (req: Request, res: Response) => {
     if (near && typeof near === "string") {
       const [latitude, longitude] = near.split(",").map(Number);
       const distance = parseInt(maxDistance?.toString() || "5000"); // Distancia predeterminada: 5km
-      const aggQuery = User.aggregate([
+
+      const pipeline: any[] = [
         {
           $geoNear: {
             near: { type: "Point", coordinates: [longitude, latitude] },
@@ -41,7 +42,23 @@ export const getUsers = async (req: Request, res: Response) => {
             query: query,
           },
         },
-      ]);
+      ];
+
+      if (sort) {
+        pipeline.push({
+          $sort: { [sort.toString()]: order === "desc" ? -1 : 1 },
+        });
+      }
+
+      if (skip) {
+        pipeline.push({ $skip: parseInt(skip.toString()) });
+      }
+
+      if (limit) {
+        pipeline.push({ $limit: parseInt(limit.toString()) });
+      }
+
+      const aggQuery = User.aggregate(pipeline);
       const result = await aggQuery.exec();
       return res
         .status(200)
