@@ -4,7 +4,11 @@
   "main": "app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch src --ext ts --exec ts-node -r tsconfig-paths/register src/app.ts"
+    "start": "nodemon --watch src --ext ts --exec ts-node -r tsconfig-paths/register src/app.ts",
+    "generate:restaurants": "ts-node -r tsconfig-paths/register src/utils/generateRestaurants.ts",
+    "generate:users": "ts-node -r tsconfig-paths/register src/utils/generateUsers.ts",
+    "generate:menuitems": "ts-node -r tsconfig-paths/register src/utils/generateMenuItems.ts",
+    "generate:orders": "ts-node -r tsconfig-paths/register src/utils/generateOrders.ts"
   },
   "keywords": [],
   "author": "",
