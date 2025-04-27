@@ -5,6 +5,11 @@ import {
     createMenuItem,
     updateMenuItem,
     deleteMenuItem,
+    createManyMenuItems,
+    updateManyMenuItems,
+    updateManyMenuItemsByIds,   
+    deleteManyMenuItems,
+    deleteManyMenuItemsByIds,
 } from "@controllers/menuItemsController";
 import { asyncHandler } from "@middlewares/asyncHandler";
 import { validateObjectId } from "@middlewares/validateObjectId";
@@ -16,5 +21,11 @@ router.get("/:id", validateObjectId(), asyncHandler(getMenuItemById));
 router.post("/", asyncHandler(createMenuItem));
 router.put("/:id", validateObjectId(), asyncHandler(updateMenuItem));
 router.delete("/:id", validateObjectId(), asyncHandler(deleteMenuItem));
+
+router.post("/update-many", asyncHandler(updateManyMenuItems));
+router.post("/update-many-by-ids", asyncHandler(updateManyMenuItemsByIds));
+router.post("/delete-many", asyncHandler(deleteManyMenuItems));
+router.post("/delete-many-by-ids", asyncHandler(deleteManyMenuItemsByIds));
+router.post("/create-many", asyncHandler(createManyMenuItems));
 
 export default router;

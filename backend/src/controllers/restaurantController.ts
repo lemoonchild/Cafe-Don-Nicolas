@@ -147,3 +147,67 @@ export const deleteRestaurant = async (req: Request, res: Response) => {
     return res.status(404).json({ message: "Restaurante no encontrado" });
   res.json({ message: "Restaurante eliminado correctamente" });
 };
+
+export const createManyRestaurants = async (req: Request, res: Response) => {
+  const { items } = req.body;
+
+  if (!items || !Array.isArray(items) || items.length === 0) {
+    return res.status(400).json({ message: "Debes enviar 'items' como un array no vacío." });
+  }
+
+  try {
+    const result = await Restaurant.insertMany(items);
+    res.status(201).json({ message: `Se crearon ${result.length} restaurantes.`, result });
+  } catch (error) {
+    res.status(500).json({ message: "Error al crear restaurantes.", error });
+  }
+};
+
+export const updateManyRestaurants = async (req: Request, res: Response) => {
+  const { filter, update } = req.body;
+
+  if (!filter || !update) {
+    return res.status(400).json({ message: "Debes enviar 'filter' y 'update'." });
+  }
+
+  const result = await Restaurant.updateMany(filter, update);
+  res.json({ message: `Se actualizaron ${result.modifiedCount} restaurantes.`, result });
+};
+
+export const updateManyRestaurantsByIds = async (req: Request, res: Response) => {
+  const { ids, update } = req.body;
+
+  if (!ids || !Array.isArray(ids) || !update) {
+    return res.status(400).json({ message: "Debes enviar 'ids' (array) y 'update'." });
+  }
+
+  const result = await Restaurant.updateMany(
+    { _id: { $in: ids } },
+    update
+  );
+  res.json({ message: `Se actualizaron ${result.modifiedCount} restaurantes.`, result });
+};
+
+export const deleteManyRestaurants = async (req: Request, res: Response) => {
+  const { filter } = req.body;
+
+  if (!filter) {
+    return res.status(400).json({ message: "Debes enviar 'filter'." });
+  }
+
+  const result = await Restaurant.deleteMany(filter);
+  res.json({ message: `Se eliminaron ${result.deletedCount} restaurantes.`, result });
+};
+
+export const deleteManyRestaurantsByIds = async (req: Request, res: Response) => {
+  const { ids } = req.body;
+
+  if (!ids || !Array.isArray(ids)) {
+    return res.status(400).json({ message: "Debes enviar 'ids' (array)." });
+  }
+
+  const result = await Restaurant.deleteMany(
+    { _id: { $in: ids } }
+  );
+  res.json({ message: `Se eliminaron ${result.deletedCount} restaurantes.`, result });
+};

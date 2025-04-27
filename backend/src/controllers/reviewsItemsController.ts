@@ -94,3 +94,67 @@ export const deleteReview = async (req: Request, res: Response) => {
   if (!review) return res.status(404).json({ message: "Reseña no encontrada" });
   res.json({ message: "Reseña eliminada correctamente" });
 };
+
+export const createManyReviews = async (req: Request, res: Response) => {
+  const { items } = req.body;
+
+  if (!items || !Array.isArray(items) || items.length === 0) {
+    return res.status(400).json({ message: "Debes enviar 'items' como un array no vacío." });
+  }
+
+  try {
+    const result = await Review.insertMany(items);
+    res.status(201).json({ message: `Se crearon ${result.length} reviews.`, result });
+  } catch (error) {
+    res.status(500).json({ message: "Error al crear reviews.", error });
+  }
+};
+
+export const updateManyReviews = async (req: Request, res: Response) => {
+  const { filter, update } = req.body;
+
+  if (!filter || !update) {
+    return res.status(400).json({ message: "Debes enviar 'filter' y 'update'." });
+  }
+
+  const result = await Review.updateMany(filter, update);
+  res.json({ message: `Se actualizaron ${result.modifiedCount} reseñas.`, result });
+};
+
+export const updateManyReviewsByIds = async (req: Request, res: Response) => {
+  const { ids, update } = req.body;
+
+  if (!ids || !Array.isArray(ids) || !update) {
+    return res.status(400).json({ message: "Debes enviar 'ids' (array) y 'update'." });
+  }
+
+  const result = await Review.updateMany(
+    { _id: { $in: ids } },
+    update
+  );
+  res.json({ message: `Se actualizaron ${result.modifiedCount} reseñas.`, result });
+};
+
+export const deleteManyReviews = async (req: Request, res: Response) => {
+  const { filter } = req.body;
+
+  if (!filter) {
+    return res.status(400).json({ message: "Debes enviar 'filter'." });
+  }
+
+  const result = await Review.deleteMany(filter);
+  res.json({ message: `Se eliminaron ${result.deletedCount} reseñas.`, result });
+};
+
+export const deleteManyReviewsByIds = async (req: Request, res: Response) => {
+  const { ids } = req.body;
+
+  if (!ids || !Array.isArray(ids)) {
+    return res.status(400).json({ message: "Debes enviar 'ids' (array)." });
+  }
+
+  const result = await Review.deleteMany(
+    { _id: { $in: ids } }
+  );
+  res.json({ message: `Se eliminaron ${result.deletedCount} reseñas.`, result });
+};

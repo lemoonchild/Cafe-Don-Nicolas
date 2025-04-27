@@ -100,7 +100,7 @@ export const getUsers = async (req: Request, res: Response) => {
   } catch (error) {
     res
       .status(500)
-      .json({ msg: "❌ Error al obtener los usuarios.", error: error });
+      .json({ msg: "Error al obtener los usuarios.", error: error });
   }
 };
 
@@ -113,7 +113,7 @@ export const getUserById = async (req: Request, res: Response) => {
     }
     res.status(200).json({ msg: "Usuario encontrado.", user });
   } catch (error) {
-    res.status(500).json({ msg: "❌ Error al obtener el usuario.", error });
+    res.status(500).json({ msg: "Error al obtener el usuario.", error });
   }
 };
 
@@ -124,7 +124,7 @@ export const createUser = async (req: Request, res: Response) => {
     await user.save();
     res.status(201).json({ msg: "Usuario creado correctamente.", user });
   } catch (error) {
-    res.status(400).json({ msg: "❌ Error al crear el usuario.", error });
+    res.status(400).json({ msg: "Error al crear el usuario.", error });
   }
 };
 
@@ -139,7 +139,7 @@ export const updateUser = async (req: Request, res: Response) => {
     }
     res.status(200).json({ msg: "Usuario actualizado correctamente.", user });
   } catch (error) {
-    res.status(400).json({ msg: "❌ Error al actualizar el usuario.", error });
+    res.status(400).json({ msg: "Error al actualizar el usuario.", error });
   }
 };
 
@@ -152,6 +152,70 @@ export const deleteUser = async (req: Request, res: Response) => {
     }
     res.status(200).json({ msg: "Usuario eliminado correctamente." });
   } catch (error) {
-    res.status(400).json({ msg: "❌ Error al eliminar el usuario.", error });
+    res.status(400).json({ msg: "Error al eliminar el usuario.", error });
   }
+};
+
+export const createManyUsers = async (req: Request, res: Response) => {
+  const { items } = req.body;
+
+  if (!items || !Array.isArray(items) || items.length === 0) {
+    return res.status(400).json({ message: "Debes enviar 'items' como un array no vacío." });
+  }
+
+  try {
+    const result = await User.insertMany(items);
+    res.status(201).json({ message: `Se crearon ${result.length} usuarios.`, result });
+  } catch (error) {
+    res.status(500).json({ message: "Error al crear usuarios.", error });
+  }
+};
+
+export const updateManyUsers = async (req: Request, res: Response) => {
+  const { filter, update } = req.body;
+
+  if (!filter || !update) {
+    return res.status(400).json({ msg: "Debes enviar 'filter' y 'update'." });
+  }
+
+  const result = await User.updateMany(filter, update);
+  res.status(200).json({ msg: `Se actualizaron ${result.modifiedCount} usuarios.`, result });
+};
+
+export const updateManyUsersByIds = async (req: Request, res: Response) => {
+  const { ids, update } = req.body;
+
+  if (!ids || !Array.isArray(ids) || !update) {
+    return res.status(400).json({ msg: "Debes enviar 'ids' (array) y 'update'." });
+  }
+
+  const result = await User.updateMany(
+    { _id: { $in: ids } },
+    update
+  );
+  res.status(200).json({ msg: `Se actualizaron ${result.modifiedCount} usuarios.`, result });
+};
+
+export const deleteManyUsers = async (req: Request, res: Response) => {
+  const { filter } = req.body;
+
+  if (!filter) {
+    return res.status(400).json({ msg: "Debes enviar 'filter'." });
+  }
+
+  const result = await User.deleteMany(filter);
+  res.status(200).json({ msg: `Se eliminaron ${result.deletedCount} usuarios.`, result });
+};
+
+export const deleteManyUsersByIds = async (req: Request, res: Response) => {
+  const { ids } = req.body;
+
+  if (!ids || !Array.isArray(ids)) {
+    return res.status(400).json({ msg: "Debes enviar 'ids' (array)." });
+  }
+
+  const result = await User.deleteMany(
+    { _id: { $in: ids } }
+  );
+  res.status(200).json({ msg: `Se eliminaron ${result.deletedCount} usuarios.`, result });
 };
