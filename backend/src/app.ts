@@ -6,6 +6,7 @@ import userRoutes from "@routes/userRoutes.ts";
 import restaurantRoutes from "@routes/restaurantRoutes.ts";
 import menuItemsRoutes from "@routes/menuItemsRoutes.ts";
 import reviewRoutes from "@routes/reviewRoutes.ts";
+import orderRoutes from "@routes/orderRoutes.ts";
 
 dotenv.config();
 
@@ -18,12 +19,13 @@ const PORT = process.env.PORT || 3000;
 connectDB();
 
 app.get("/", (_: Request, res: Response) => {
-  res.status(200).send("API funcionando 🚀");
+  res.status(200).send("API funcionando correctamente");
 });
 
 app.use("/api/users", userRoutes);
 app.use("/api/restaurants", restaurantRoutes); 
 app.use("/api/menu-items", menuItemsRoutes);
 app.use("/api/reviews", reviewRoutes);
+app.use("/api/orders", orderRoutes);
 
 app.listen(PORT, () => console.log(`Servidor en http://localhost:${PORT}`));
