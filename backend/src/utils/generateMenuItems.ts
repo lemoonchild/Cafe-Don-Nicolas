@@ -3,17 +3,15 @@ import * as fs from "fs";
 // === Cargar IDs de restaurantes desde el archivo ===
 const path = require("path");
 const rawData = fs.readFileSync(
-  path.join(__dirname, "restaurant_ids.txt"),
+  path.join(__dirname, "cdn.restaurants.json"),
   "utf-8"
 );
-const lines = rawData.trim().split("\n");
+const restaurants = JSON.parse(rawData);
 
-const restaurantIds = lines
-  .filter((line) => line.trim() !== "")
-  .map((line) => {
-    const parsed = JSON.parse(line);
-    return parsed._id.$oid; // extrae solo el ObjectId en string
-  });
+// Extraer solo los IDs de los restaurantes
+const restaurantIds = restaurants.map(
+  (restaurante: any) => restaurante._id.$oid
+);
 
 const productosBase = [
   // ☕ Bebidas calientes
@@ -239,7 +237,7 @@ function generarMenuItems() {
         ingredients: base.ingredients,
         category: base.category,
         available: Math.random() > 0.05, // 95% chance de estar disponible
-        restaurant_id: restaurantId,
+        restaurant_id: { $oid: restaurantId },
       });
     }
   }

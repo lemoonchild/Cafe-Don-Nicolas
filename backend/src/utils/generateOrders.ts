@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
+import mongoose from "mongoose";
 
 // Cargar usuarios, restaurantes y menuItems
 const userIds = JSON.parse(
@@ -27,14 +28,22 @@ function generarOrders() {
   const orders = [];
   const totalOrders = 50000;
 
+  const restaurantIdsConProductos = Array.from(
+    new Set(menuItems.map((item: any) => item.restaurant_id.$oid))
+  );
+
   for (let i = 0; i < totalOrders; i++) {
-    const user = userIds[Math.floor(Math.random() * userIds.length)]._id;
-    const restaurant =
-      restaurantIds[Math.floor(Math.random() * restaurantIds.length)]._id.$oid;
+    console.log(`Generando orden ${i + 1} de ${totalOrders}`);
+    const userId = userIds[Math.floor(Math.random() * userIds.length)]._id;
+    const restaurantId =
+      restaurantIdsConProductos[
+        Math.floor(Math.random() * restaurantIdsConProductos.length)
+      ];
 
     // Filtrar productos disponibles para ese restaurante
     const productosRestaurante = menuItems.filter(
-      (item: { restaurant_id: string }) => item.restaurant_id === restaurant
+      (item: { restaurant_id: { $oid: string } }) =>
+        item.restaurant_id.$oid === restaurantId
     );
 
     // Seleccionar de 1 a 5 productos aleatorios
@@ -51,7 +60,7 @@ function generarOrders() {
       const cantidad = Math.floor(Math.random() * 3) + 1; // de 1 a 3 unidades
 
       productosSeleccionados.push({
-        product_id: producto._id,
+        product_id: { $oid: producto._id.$oid },
         name: producto.name,
         quantity: cantidad,
         unit_price: producto.price,
@@ -61,8 +70,8 @@ function generarOrders() {
     }
 
     const order = {
-      user_id: user,
-      restaurant_id: restaurant,
+      user_id: { $oid: userId.$oid },
+      restaurant_id: { $oid: restaurantId },
       date: randomDate(new Date(2023, 0, 1), new Date()), // fechas entre enero 2023 y hoy
       status: statuses[Math.floor(Math.random() * statuses.length)],
       total: total,
@@ -70,6 +79,11 @@ function generarOrders() {
     };
 
     orders.push(order);
+    console.log(
+      `Orden ${i + 1}: ${order.user_id.$oid} - ${order.restaurant_id.$oid} - ${
+        order.total
+      } USD`
+    );
   }
 
   return orders;

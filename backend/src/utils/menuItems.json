@@ -1,0 +1,7301 @@
+[
+  {
+    "name": "Chocolate Caliente Grande",
+    "description": "Delicioso chocolate caliente grande.",
+    "price": 40,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Espresso Doble Sin azúcar",
+    "description": "Delicioso espresso doble sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Con extra de chocolate",
+    "description": "Delicioso cheesecake de fresa con extra de chocolate.",
+    "price": 37,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Con topping de frutas",
+    "description": "Delicioso muffin de arándano con topping de frutas.",
+    "price": 28,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Café Americano Sin azúcar",
+    "description": "Delicioso café americano sin azúcar.",
+    "price": 44,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Con leche de almendra",
+    "description": "Delicioso cold brew clásico con leche de almendra.",
+    "price": 22,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Especial",
+    "description": "Delicioso omelette de jamón especial.",
+    "price": 21,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Integral",
+    "description": "Delicioso omelette de jamón integral.",
+    "price": 46,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Relleno de queso",
+    "description": "Delicioso omelette de jamón relleno de queso.",
+    "price": 35,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Especial",
+    "description": "Delicioso empanada de pollo especial.",
+    "price": 48,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Integral",
+    "description": "Delicioso bagel con queso crema integral.",
+    "price": 30,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Relleno de queso",
+    "description": "Delicioso burrito de desayuno relleno de queso.",
+    "price": 20,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Artesanal",
+    "description": "Delicioso empanada de pollo artesanal.",
+    "price": 27,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Espresso Doble Especial",
+    "description": "Delicioso espresso doble especial.",
+    "price": 30,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Espresso Simple Clásico",
+    "description": "Delicioso espresso simple clásico.",
+    "price": 42,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Latte Clásico Grande",
+    "description": "Delicioso latte clásico grande.",
+    "price": 25,
+    "ingredients": [
+      "espresso",
+      "leche vaporizada"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Clásico",
+    "description": "Delicioso croissant de jamón y queso clásico.",
+    "price": 25,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con extra de chocolate",
+    "description": "Delicioso brownie de chocolate con extra de chocolate.",
+    "price": 39,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Té Chai Latte Con leche de almendra",
+    "description": "Delicioso té chai latte con leche de almendra.",
+    "price": 43,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Artesanal",
+    "description": "Delicioso sandwich de pollo artesanal.",
+    "price": 44,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306173"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Integral",
+    "description": "Delicioso tostadas francesas integral.",
+    "price": 34,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Sin azúcar",
+    "description": "Delicioso muffin de arándano sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Espresso Simple Especial",
+    "description": "Delicioso espresso simple especial.",
+    "price": 36,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Integral",
+    "description": "Delicioso burrito de desayuno integral.",
+    "price": 32,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Especial",
+    "description": "Delicioso omelette de jamón especial.",
+    "price": 25,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Especial",
+    "description": "Delicioso omelette vegetariano especial.",
+    "price": 47,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Con topping de frutas",
+    "description": "Delicioso muffin de chocolate con topping de frutas.",
+    "price": 34,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Latte Clásico Especial",
+    "description": "Delicioso latte clásico especial.",
+    "price": 43,
+    "ingredients": [
+      "espresso",
+      "leche vaporizada"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Con leche de almendra",
+    "description": "Delicioso smoothie de mango con leche de almendra.",
+    "price": 30,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Integral",
+    "description": "Delicioso omelette de jamón integral.",
+    "price": 44,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Café Helado Especial",
+    "description": "Delicioso café helado especial.",
+    "price": 40,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Sin azúcar",
+    "description": "Delicioso chocolate caliente sin azúcar.",
+    "price": 33,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Relleno de queso",
+    "description": "Delicioso omelette de jamón relleno de queso.",
+    "price": 36,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Clásico",
+    "description": "Delicioso croissant de mantequilla clásico.",
+    "price": 45,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Con leche de almendra",
+    "description": "Delicioso cold brew clásico con leche de almendra.",
+    "price": 33,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Galleta de Avena Sin azúcar",
+    "description": "Delicioso galleta de avena sin azúcar.",
+    "price": 44,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Especial",
+    "description": "Delicioso smoothie de fresa especial.",
+    "price": 25,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Especial",
+    "description": "Delicioso smoothie de fresa especial.",
+    "price": 42,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Latte Clásico Grande",
+    "description": "Delicioso latte clásico grande.",
+    "price": 31,
+    "ingredients": [
+      "espresso",
+      "leche vaporizada"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Galleta de Avena Receta especial",
+    "description": "Delicioso galleta de avena receta especial.",
+    "price": 28,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306174"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Integral",
+    "description": "Delicioso sandwich de pollo integral.",
+    "price": 40,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Integral",
+    "description": "Delicioso croissant de mantequilla integral.",
+    "price": 32,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Relleno de queso",
+    "description": "Delicioso burrito de desayuno relleno de queso.",
+    "price": 38,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Especial",
+    "description": "Delicioso sandwich de pollo especial.",
+    "price": 27,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Grande",
+    "description": "Delicioso smoothie de fresa grande.",
+    "price": 30,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Clásico",
+    "description": "Delicioso muffin de arándano clásico.",
+    "price": 47,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Especial",
+    "description": "Delicioso chocolate caliente especial.",
+    "price": 34,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Clásico",
+    "description": "Delicioso cold brew clásico clásico.",
+    "price": 31,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con extra de chocolate",
+    "description": "Delicioso brownie de chocolate con extra de chocolate.",
+    "price": 44,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Relleno de queso",
+    "description": "Delicioso burrito de desayuno relleno de queso.",
+    "price": 34,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Especial",
+    "description": "Delicioso omelette vegetariano especial.",
+    "price": 28,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Clásico",
+    "description": "Delicioso frappuccino de vainilla clásico.",
+    "price": 20,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Té Chai Latte Especial",
+    "description": "Delicioso té chai latte especial.",
+    "price": 47,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Relleno de queso",
+    "description": "Delicioso tostadas francesas relleno de queso.",
+    "price": 48,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Café Helado Sin azúcar",
+    "description": "Delicioso café helado sin azúcar.",
+    "price": 41,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Té Chai Latte Sin azúcar",
+    "description": "Delicioso té chai latte sin azúcar.",
+    "price": 29,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Sandwich Vegetariano Integral",
+    "description": "Delicioso sandwich vegetariano integral.",
+    "price": 44,
+    "ingredients": [
+      "vegetales",
+      "pan integral",
+      "queso"
+    ],
+    "category": "snack",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Sin azúcar",
+    "description": "Delicioso brownie de chocolate sin azúcar.",
+    "price": 27,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Relleno de queso",
+    "description": "Delicioso omelette de jamón relleno de queso.",
+    "price": 22,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Espresso Simple Clásico",
+    "description": "Delicioso espresso simple clásico.",
+    "price": 38,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306175"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con extra de chocolate",
+    "description": "Delicioso pastel de zanahoria con extra de chocolate.",
+    "price": 37,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Especial",
+    "description": "Delicioso chocolate caliente especial.",
+    "price": 26,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Clásico",
+    "description": "Delicioso smoothie de fresa clásico.",
+    "price": 46,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con topping de frutas",
+    "description": "Delicioso pastel de zanahoria con topping de frutas.",
+    "price": 27,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Sin azúcar",
+    "description": "Delicioso cold brew clásico sin azúcar.",
+    "price": 39,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Galleta de Avena Sin azúcar",
+    "description": "Delicioso galleta de avena sin azúcar.",
+    "price": 33,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Especial",
+    "description": "Delicioso cold brew clásico especial.",
+    "price": 36,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Con topping de frutas",
+    "description": "Delicioso muffin de arándano con topping de frutas.",
+    "price": 42,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Espresso Doble Clásico",
+    "description": "Delicioso espresso doble clásico.",
+    "price": 44,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Con topping de frutas",
+    "description": "Delicioso muffin de chocolate con topping de frutas.",
+    "price": 46,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Integral",
+    "description": "Delicioso empanada de espinaca integral.",
+    "price": 37,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Clásico",
+    "description": "Delicioso cold brew clásico clásico.",
+    "price": 38,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Té Chai Latte Con leche de almendra",
+    "description": "Delicioso té chai latte con leche de almendra.",
+    "price": 32,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Capuccino Grande",
+    "description": "Delicioso capuccino grande.",
+    "price": 26,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Clásico",
+    "description": "Delicioso sandwich de pollo clásico.",
+    "price": 41,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Té Chai Latte Extra shot de espresso",
+    "description": "Delicioso té chai latte extra shot de espresso.",
+    "price": 49,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Clásico",
+    "description": "Delicioso empanada de espinaca clásico.",
+    "price": 42,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Receta especial",
+    "description": "Delicioso brownie de chocolate receta especial.",
+    "price": 34,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Clásico",
+    "description": "Delicioso tostadas francesas clásico.",
+    "price": 38,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Té Chai Latte Sin azúcar",
+    "description": "Delicioso té chai latte sin azúcar.",
+    "price": 24,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306176"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con topping de frutas",
+    "description": "Delicioso pastel de zanahoria con topping de frutas.",
+    "price": 24,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Integral",
+    "description": "Delicioso sandwich de pollo integral.",
+    "price": 36,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Clásico",
+    "description": "Delicioso omelette vegetariano clásico.",
+    "price": 40,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Espresso Simple Clásico",
+    "description": "Delicioso espresso simple clásico.",
+    "price": 34,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Especial",
+    "description": "Delicioso chocolate caliente especial.",
+    "price": 41,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Clásico",
+    "description": "Delicioso cheesecake de fresa clásico.",
+    "price": 29,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Con leche de almendra",
+    "description": "Delicioso cold brew clásico con leche de almendra.",
+    "price": 42,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Relleno de queso",
+    "description": "Delicioso tostadas francesas relleno de queso.",
+    "price": 20,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con extra de chocolate",
+    "description": "Delicioso brownie de chocolate con extra de chocolate.",
+    "price": 32,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Capuccino Sin azúcar",
+    "description": "Delicioso capuccino sin azúcar.",
+    "price": 42,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Té Chai Latte Extra shot de espresso",
+    "description": "Delicioso té chai latte extra shot de espresso.",
+    "price": 42,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Artesanal",
+    "description": "Delicioso sandwich de pollo artesanal.",
+    "price": 21,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Sin azúcar",
+    "description": "Delicioso muffin de chocolate sin azúcar.",
+    "price": 40,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Integral",
+    "description": "Delicioso croissant de mantequilla integral.",
+    "price": 31,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Capuccino Extra shot de espresso",
+    "description": "Delicioso capuccino extra shot de espresso.",
+    "price": 37,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Artesanal",
+    "description": "Delicioso empanada de pollo artesanal.",
+    "price": 25,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Sin azúcar",
+    "description": "Delicioso chocolate caliente sin azúcar.",
+    "price": 43,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Galleta de Avena Clásico",
+    "description": "Delicioso galleta de avena clásico.",
+    "price": 49,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Clásico",
+    "description": "Delicioso bagel con queso crema clásico.",
+    "price": 44,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Receta especial",
+    "description": "Delicioso muffin de arándano receta especial.",
+    "price": 40,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306177"
+    }
+  },
+  {
+    "name": "Espresso Doble Grande",
+    "description": "Delicioso espresso doble grande.",
+    "price": 42,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Capuccino Con leche de almendra",
+    "description": "Delicioso capuccino con leche de almendra.",
+    "price": 24,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Especial",
+    "description": "Delicioso omelette de jamón especial.",
+    "price": 44,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Espresso Doble Con leche de almendra",
+    "description": "Delicioso espresso doble con leche de almendra.",
+    "price": 24,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Especial",
+    "description": "Delicioso burrito de desayuno especial.",
+    "price": 47,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Sin azúcar",
+    "description": "Delicioso smoothie de fresa sin azúcar.",
+    "price": 22,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Especial",
+    "description": "Delicioso omelette de jamón especial.",
+    "price": 33,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Sin azúcar",
+    "description": "Delicioso smoothie de fresa sin azúcar.",
+    "price": 29,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Clásico",
+    "description": "Delicioso chocolate caliente clásico.",
+    "price": 35,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Especial",
+    "description": "Delicioso bagel con queso crema especial.",
+    "price": 36,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Clásico",
+    "description": "Delicioso smoothie de fresa clásico.",
+    "price": 20,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Café Americano Sin azúcar",
+    "description": "Delicioso café americano sin azúcar.",
+    "price": 43,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Waffles con Miel Relleno de queso",
+    "description": "Delicioso waffles con miel relleno de queso.",
+    "price": 26,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Té Chai Latte Especial",
+    "description": "Delicioso té chai latte especial.",
+    "price": 31,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Especial",
+    "description": "Delicioso empanada de espinaca especial.",
+    "price": 38,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Especial",
+    "description": "Delicioso sandwich de pollo especial.",
+    "price": 35,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Artesanal",
+    "description": "Delicioso sandwich de pollo artesanal.",
+    "price": 37,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Relleno de queso",
+    "description": "Delicioso bagel con queso crema relleno de queso.",
+    "price": 47,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Relleno de queso",
+    "description": "Delicioso bagel con queso crema relleno de queso.",
+    "price": 36,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Sandwich Vegetariano Especial",
+    "description": "Delicioso sandwich vegetariano especial.",
+    "price": 20,
+    "ingredients": [
+      "vegetales",
+      "pan integral",
+      "queso"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306178"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Especial",
+    "description": "Delicioso omelette vegetariano especial.",
+    "price": 49,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Sin azúcar",
+    "description": "Delicioso muffin de chocolate sin azúcar.",
+    "price": 22,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Especial",
+    "description": "Delicioso cold brew clásico especial.",
+    "price": 33,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Café Helado Clásico",
+    "description": "Delicioso café helado clásico.",
+    "price": 46,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Especial",
+    "description": "Delicioso omelette vegetariano especial.",
+    "price": 32,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Sin azúcar",
+    "description": "Delicioso brownie de chocolate sin azúcar.",
+    "price": 26,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Clásico",
+    "description": "Delicioso sandwich de pollo clásico.",
+    "price": 22,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Especial",
+    "description": "Delicioso omelette vegetariano especial.",
+    "price": 38,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Especial",
+    "description": "Delicioso smoothie de mango especial.",
+    "price": 41,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Sin azúcar",
+    "description": "Delicioso muffin de arándano sin azúcar.",
+    "price": 38,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Especial",
+    "description": "Delicioso cold brew clásico especial.",
+    "price": 25,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Integral",
+    "description": "Delicioso croissant de jamón y queso integral.",
+    "price": 26,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Con leche de almendra",
+    "description": "Delicioso smoothie de fresa con leche de almendra.",
+    "price": 37,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Capuccino Especial",
+    "description": "Delicioso capuccino especial.",
+    "price": 39,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Sin azúcar",
+    "description": "Delicioso smoothie de mango sin azúcar.",
+    "price": 40,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Café Americano Especial",
+    "description": "Delicioso café americano especial.",
+    "price": 48,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Sin azúcar",
+    "description": "Delicioso brownie de chocolate sin azúcar.",
+    "price": 32,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Sin azúcar",
+    "description": "Delicioso té helado de limón sin azúcar.",
+    "price": 33,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Clásico",
+    "description": "Delicioso omelette vegetariano clásico.",
+    "price": 33,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Sandwich Vegetariano Artesanal",
+    "description": "Delicioso sandwich vegetariano artesanal.",
+    "price": 48,
+    "ingredients": [
+      "vegetales",
+      "pan integral",
+      "queso"
+    ],
+    "category": "snack",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306179"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Sin azúcar",
+    "description": "Delicioso frappuccino de vainilla sin azúcar.",
+    "price": 47,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Relleno de queso",
+    "description": "Delicioso bagel con queso crema relleno de queso.",
+    "price": 33,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Receta especial",
+    "description": "Delicioso pastel de zanahoria receta especial.",
+    "price": 28,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Té Chai Latte Con leche de almendra",
+    "description": "Delicioso té chai latte con leche de almendra.",
+    "price": 27,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Café Helado Con leche de almendra",
+    "description": "Delicioso café helado con leche de almendra.",
+    "price": 41,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Café Americano Especial",
+    "description": "Delicioso café americano especial.",
+    "price": 21,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Espresso Simple Especial",
+    "description": "Delicioso espresso simple especial.",
+    "price": 21,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Clásico",
+    "description": "Delicioso empanada de pollo clásico.",
+    "price": 35,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Té Chai Latte Grande",
+    "description": "Delicioso té chai latte grande.",
+    "price": 24,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Sin azúcar",
+    "description": "Delicioso muffin de chocolate sin azúcar.",
+    "price": 42,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Sin azúcar",
+    "description": "Delicioso frappuccino de vainilla sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Grande",
+    "description": "Delicioso té helado de limón grande.",
+    "price": 22,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Clásico",
+    "description": "Delicioso smoothie de mango clásico.",
+    "price": 38,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Artesanal",
+    "description": "Delicioso croissant de mantequilla artesanal.",
+    "price": 41,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Capuccino Grande",
+    "description": "Delicioso capuccino grande.",
+    "price": 48,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Galleta de Avena Receta especial",
+    "description": "Delicioso galleta de avena receta especial.",
+    "price": 33,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Artesanal",
+    "description": "Delicioso croissant de jamón y queso artesanal.",
+    "price": 26,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Galleta de Avena Sin azúcar",
+    "description": "Delicioso galleta de avena sin azúcar.",
+    "price": 29,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Capuccino Extra shot de espresso",
+    "description": "Delicioso capuccino extra shot de espresso.",
+    "price": 43,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Clásico",
+    "description": "Delicioso smoothie de fresa clásico.",
+    "price": 34,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617a"
+    }
+  },
+  {
+    "name": "Capuccino Grande",
+    "description": "Delicioso capuccino grande.",
+    "price": 35,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Clásico",
+    "description": "Delicioso tostadas francesas clásico.",
+    "price": 42,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Relleno de queso",
+    "description": "Delicioso omelette de jamón relleno de queso.",
+    "price": 21,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Integral",
+    "description": "Delicioso croissant de mantequilla integral.",
+    "price": 38,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Con extra de chocolate",
+    "description": "Delicioso cheesecake de fresa con extra de chocolate.",
+    "price": 43,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Waffles con Miel Clásico",
+    "description": "Delicioso waffles con miel clásico.",
+    "price": 39,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Relleno de queso",
+    "description": "Delicioso omelette vegetariano relleno de queso.",
+    "price": 30,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Espresso Doble Sin azúcar",
+    "description": "Delicioso espresso doble sin azúcar.",
+    "price": 48,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Artesanal",
+    "description": "Delicioso croissant de jamón y queso artesanal.",
+    "price": 28,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Espresso Simple Sin azúcar",
+    "description": "Delicioso espresso simple sin azúcar.",
+    "price": 34,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Integral",
+    "description": "Delicioso omelette vegetariano integral.",
+    "price": 49,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Especial",
+    "description": "Delicioso empanada de espinaca especial.",
+    "price": 20,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Waffles con Miel Integral",
+    "description": "Delicioso waffles con miel integral.",
+    "price": 42,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Sin azúcar",
+    "description": "Delicioso frappuccino de vainilla sin azúcar.",
+    "price": 41,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Té Chai Latte Extra shot de espresso",
+    "description": "Delicioso té chai latte extra shot de espresso.",
+    "price": 28,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Integral",
+    "description": "Delicioso empanada de pollo integral.",
+    "price": 32,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Con leche de almendra",
+    "description": "Delicioso té helado de limón con leche de almendra.",
+    "price": 26,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Relleno de queso",
+    "description": "Delicioso tostadas francesas relleno de queso.",
+    "price": 20,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Especial",
+    "description": "Delicioso empanada de espinaca especial.",
+    "price": 28,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Especial",
+    "description": "Delicioso empanada de espinaca especial.",
+    "price": 20,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617b"
+    }
+  },
+  {
+    "name": "Espresso Doble Extra shot de espresso",
+    "description": "Delicioso espresso doble extra shot de espresso.",
+    "price": 32,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Integral",
+    "description": "Delicioso omelette de jamón integral.",
+    "price": 46,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Especial",
+    "description": "Delicioso frappuccino de vainilla especial.",
+    "price": 23,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Sin azúcar",
+    "description": "Delicioso smoothie de fresa sin azúcar.",
+    "price": 46,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Grande",
+    "description": "Delicioso té helado de limón grande.",
+    "price": 27,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Sin azúcar",
+    "description": "Delicioso muffin de chocolate sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Clásico",
+    "description": "Delicioso cold brew clásico clásico.",
+    "price": 26,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Clásico",
+    "description": "Delicioso brownie de chocolate clásico.",
+    "price": 32,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con extra de chocolate",
+    "description": "Delicioso brownie de chocolate con extra de chocolate.",
+    "price": 20,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Integral",
+    "description": "Delicioso empanada de espinaca integral.",
+    "price": 37,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Artesanal",
+    "description": "Delicioso empanada de pollo artesanal.",
+    "price": 20,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Galleta de Avena Sin azúcar",
+    "description": "Delicioso galleta de avena sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Mocha Chocolate Clásico",
+    "description": "Delicioso mocha chocolate clásico.",
+    "price": 41,
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Clásico",
+    "description": "Delicioso chocolate caliente clásico.",
+    "price": 42,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Capuccino Extra shot de espresso",
+    "description": "Delicioso capuccino extra shot de espresso.",
+    "price": 26,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Especial",
+    "description": "Delicioso empanada de pollo especial.",
+    "price": 27,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Artesanal",
+    "description": "Delicioso croissant de jamón y queso artesanal.",
+    "price": 43,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Clásico",
+    "description": "Delicioso croissant de mantequilla clásico.",
+    "price": 26,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Grande",
+    "description": "Delicioso cold brew clásico grande.",
+    "price": 32,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Especial",
+    "description": "Delicioso croissant de mantequilla especial.",
+    "price": 40,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617c"
+    }
+  },
+  {
+    "name": "Té Chai Latte Con leche de almendra",
+    "description": "Delicioso té chai latte con leche de almendra.",
+    "price": 24,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Receta especial",
+    "description": "Delicioso pastel de zanahoria receta especial.",
+    "price": 30,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Artesanal",
+    "description": "Delicioso croissant de mantequilla artesanal.",
+    "price": 45,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Espresso Doble Grande",
+    "description": "Delicioso espresso doble grande.",
+    "price": 29,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Waffles con Miel Especial",
+    "description": "Delicioso waffles con miel especial.",
+    "price": 25,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Sin azúcar",
+    "description": "Delicioso cold brew clásico sin azúcar.",
+    "price": 40,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Integral",
+    "description": "Delicioso burrito de desayuno integral.",
+    "price": 31,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Sin azúcar",
+    "description": "Delicioso pastel de zanahoria sin azúcar.",
+    "price": 21,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Galleta de Avena Con extra de chocolate",
+    "description": "Delicioso galleta de avena con extra de chocolate.",
+    "price": 27,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Relleno de queso",
+    "description": "Delicioso omelette vegetariano relleno de queso.",
+    "price": 46,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Especial",
+    "description": "Delicioso smoothie de fresa especial.",
+    "price": 36,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Sin azúcar",
+    "description": "Delicioso cold brew clásico sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Galleta de Avena Sin azúcar",
+    "description": "Delicioso galleta de avena sin azúcar.",
+    "price": 46,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con extra de chocolate",
+    "description": "Delicioso brownie de chocolate con extra de chocolate.",
+    "price": 20,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Con topping de frutas",
+    "description": "Delicioso muffin de arándano con topping de frutas.",
+    "price": 25,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Café Helado Sin azúcar",
+    "description": "Delicioso café helado sin azúcar.",
+    "price": 24,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Capuccino Sin azúcar",
+    "description": "Delicioso capuccino sin azúcar.",
+    "price": 25,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Clásico",
+    "description": "Delicioso tostadas francesas clásico.",
+    "price": 20,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Extra shot de espresso",
+    "description": "Delicioso chocolate caliente extra shot de espresso.",
+    "price": 39,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Espresso Doble Grande",
+    "description": "Delicioso espresso doble grande.",
+    "price": 30,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617d"
+    }
+  },
+  {
+    "name": "Té Chai Latte Especial",
+    "description": "Delicioso té chai latte especial.",
+    "price": 45,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Clásico",
+    "description": "Delicioso empanada de pollo clásico.",
+    "price": 29,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Clásico",
+    "description": "Delicioso bagel con queso crema clásico.",
+    "price": 34,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Especial",
+    "description": "Delicioso tostadas francesas especial.",
+    "price": 33,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Integral",
+    "description": "Delicioso omelette de jamón integral.",
+    "price": 20,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Café Americano Especial",
+    "description": "Delicioso café americano especial.",
+    "price": 34,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Waffles con Miel Especial",
+    "description": "Delicioso waffles con miel especial.",
+    "price": 25,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Especial",
+    "description": "Delicioso chocolate caliente especial.",
+    "price": 28,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Especial",
+    "description": "Delicioso omelette vegetariano especial.",
+    "price": 27,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Clásico",
+    "description": "Delicioso bagel con queso crema clásico.",
+    "price": 25,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Especial",
+    "description": "Delicioso cold brew clásico especial.",
+    "price": 23,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Espresso Doble Sin azúcar",
+    "description": "Delicioso espresso doble sin azúcar.",
+    "price": 33,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Con extra de chocolate",
+    "description": "Delicioso muffin de chocolate con extra de chocolate.",
+    "price": 25,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Especial",
+    "description": "Delicioso omelette de jamón especial.",
+    "price": 46,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Con topping de frutas",
+    "description": "Delicioso muffin de chocolate con topping de frutas.",
+    "price": 49,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Grande",
+    "description": "Delicioso frappuccino de vainilla grande.",
+    "price": 23,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con topping de frutas",
+    "description": "Delicioso pastel de zanahoria con topping de frutas.",
+    "price": 29,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Receta especial",
+    "description": "Delicioso muffin de arándano receta especial.",
+    "price": 37,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Espresso Simple Grande",
+    "description": "Delicioso espresso simple grande.",
+    "price": 41,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Integral",
+    "description": "Delicioso omelette vegetariano integral.",
+    "price": 25,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617e"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Integral",
+    "description": "Delicioso sandwich de pollo integral.",
+    "price": 24,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Especial",
+    "description": "Delicioso omelette vegetariano especial.",
+    "price": 41,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Té Chai Latte Sin azúcar",
+    "description": "Delicioso té chai latte sin azúcar.",
+    "price": 21,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Artesanal",
+    "description": "Delicioso croissant de mantequilla artesanal.",
+    "price": 30,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Con extra de chocolate",
+    "description": "Delicioso muffin de chocolate con extra de chocolate.",
+    "price": 49,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Sin azúcar",
+    "description": "Delicioso smoothie de fresa sin azúcar.",
+    "price": 29,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Clásico",
+    "description": "Delicioso omelette de jamón clásico.",
+    "price": 31,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Especial",
+    "description": "Delicioso frappuccino de vainilla especial.",
+    "price": 27,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Mocha Chocolate Grande",
+    "description": "Delicioso mocha chocolate grande.",
+    "price": 37,
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Artesanal",
+    "description": "Delicioso empanada de pollo artesanal.",
+    "price": 32,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Espresso Simple Grande",
+    "description": "Delicioso espresso simple grande.",
+    "price": 47,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Clásico",
+    "description": "Delicioso tostadas francesas clásico.",
+    "price": 24,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Integral",
+    "description": "Delicioso bagel con queso crema integral.",
+    "price": 38,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Espresso Simple Grande",
+    "description": "Delicioso espresso simple grande.",
+    "price": 43,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Clásico",
+    "description": "Delicioso omelette vegetariano clásico.",
+    "price": 26,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Café Helado Sin azúcar",
+    "description": "Delicioso café helado sin azúcar.",
+    "price": 42,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Integral",
+    "description": "Delicioso empanada de pollo integral.",
+    "price": 39,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Artesanal",
+    "description": "Delicioso sandwich de pollo artesanal.",
+    "price": 34,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Grande",
+    "description": "Delicioso smoothie de mango grande.",
+    "price": 37,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Espresso Simple Sin azúcar",
+    "description": "Delicioso espresso simple sin azúcar.",
+    "price": 48,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30617f"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Especial",
+    "description": "Delicioso croissant de mantequilla especial.",
+    "price": 39,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Especial",
+    "description": "Delicioso tostadas francesas especial.",
+    "price": 42,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Clásico",
+    "description": "Delicioso omelette de jamón clásico.",
+    "price": 40,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Integral",
+    "description": "Delicioso burrito de desayuno integral.",
+    "price": 39,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Clásico",
+    "description": "Delicioso sandwich de pollo clásico.",
+    "price": 28,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Clásico",
+    "description": "Delicioso tostadas francesas clásico.",
+    "price": 48,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Con extra de chocolate",
+    "description": "Delicioso cheesecake de fresa con extra de chocolate.",
+    "price": 32,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Especial",
+    "description": "Delicioso burrito de desayuno especial.",
+    "price": 20,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Clásico",
+    "description": "Delicioso empanada de pollo clásico.",
+    "price": 30,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Clásico",
+    "description": "Delicioso té helado de limón clásico.",
+    "price": 28,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Café Helado Clásico",
+    "description": "Delicioso café helado clásico.",
+    "price": 28,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Artesanal",
+    "description": "Delicioso empanada de pollo artesanal.",
+    "price": 38,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Sin azúcar",
+    "description": "Delicioso muffin de arándano sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Galleta de Avena Con topping de frutas",
+    "description": "Delicioso galleta de avena con topping de frutas.",
+    "price": 29,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Sandwich Vegetariano Integral",
+    "description": "Delicioso sandwich vegetariano integral.",
+    "price": 31,
+    "ingredients": [
+      "vegetales",
+      "pan integral",
+      "queso"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Clásico",
+    "description": "Delicioso sandwich de pollo clásico.",
+    "price": 26,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Receta especial",
+    "description": "Delicioso pastel de zanahoria receta especial.",
+    "price": 32,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Especial",
+    "description": "Delicioso omelette de jamón especial.",
+    "price": 22,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Especial",
+    "description": "Delicioso empanada de espinaca especial.",
+    "price": 34,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Café Americano Extra shot de espresso",
+    "description": "Delicioso café americano extra shot de espresso.",
+    "price": 22,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306180"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Clásico",
+    "description": "Delicioso frappuccino de vainilla clásico.",
+    "price": 35,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Integral",
+    "description": "Delicioso omelette de jamón integral.",
+    "price": 47,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Clásico",
+    "description": "Delicioso omelette vegetariano clásico.",
+    "price": 38,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Latte Clásico Especial",
+    "description": "Delicioso latte clásico especial.",
+    "price": 24,
+    "ingredients": [
+      "espresso",
+      "leche vaporizada"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Integral",
+    "description": "Delicioso tostadas francesas integral.",
+    "price": 38,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Galleta de Avena Sin azúcar",
+    "description": "Delicioso galleta de avena sin azúcar.",
+    "price": 39,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Especial",
+    "description": "Delicioso frappuccino de vainilla especial.",
+    "price": 33,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Clásico",
+    "description": "Delicioso omelette vegetariano clásico.",
+    "price": 46,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Clásico",
+    "description": "Delicioso muffin de arándano clásico.",
+    "price": 29,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Capuccino Clásico",
+    "description": "Delicioso capuccino clásico.",
+    "price": 30,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Capuccino Especial",
+    "description": "Delicioso capuccino especial.",
+    "price": 31,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Capuccino Grande",
+    "description": "Delicioso capuccino grande.",
+    "price": 26,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Café Americano Especial",
+    "description": "Delicioso café americano especial.",
+    "price": 43,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Latte Clásico Clásico",
+    "description": "Delicioso latte clásico clásico.",
+    "price": 31,
+    "ingredients": [
+      "espresso",
+      "leche vaporizada"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Con leche de almendra",
+    "description": "Delicioso frappuccino de vainilla con leche de almendra.",
+    "price": 41,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Café Americano Especial",
+    "description": "Delicioso café americano especial.",
+    "price": 33,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Capuccino Con leche de almendra",
+    "description": "Delicioso capuccino con leche de almendra.",
+    "price": 20,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con topping de frutas",
+    "description": "Delicioso pastel de zanahoria con topping de frutas.",
+    "price": 41,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Sin azúcar",
+    "description": "Delicioso smoothie de fresa sin azúcar.",
+    "price": 37,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Artesanal",
+    "description": "Delicioso empanada de pollo artesanal.",
+    "price": 26,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306181"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Receta especial",
+    "description": "Delicioso pastel de zanahoria receta especial.",
+    "price": 22,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Con leche de almendra",
+    "description": "Delicioso smoothie de fresa con leche de almendra.",
+    "price": 31,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Sin azúcar",
+    "description": "Delicioso smoothie de mango sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Relleno de queso",
+    "description": "Delicioso bagel con queso crema relleno de queso.",
+    "price": 22,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Café Americano Grande",
+    "description": "Delicioso café americano grande.",
+    "price": 27,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Clásico",
+    "description": "Delicioso cold brew clásico clásico.",
+    "price": 23,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con topping de frutas",
+    "description": "Delicioso brownie de chocolate con topping de frutas.",
+    "price": 31,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Con extra de chocolate",
+    "description": "Delicioso muffin de arándano con extra de chocolate.",
+    "price": 32,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Integral",
+    "description": "Delicioso sandwich de pollo integral.",
+    "price": 27,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Especial",
+    "description": "Delicioso burrito de desayuno especial.",
+    "price": 27,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Sin azúcar",
+    "description": "Delicioso cold brew clásico sin azúcar.",
+    "price": 46,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Relleno de queso",
+    "description": "Delicioso omelette de jamón relleno de queso.",
+    "price": 28,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Galleta de Avena Clásico",
+    "description": "Delicioso galleta de avena clásico.",
+    "price": 24,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Grande",
+    "description": "Delicioso frappuccino de vainilla grande.",
+    "price": 46,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Galleta de Avena Clásico",
+    "description": "Delicioso galleta de avena clásico.",
+    "price": 49,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Espresso Doble Clásico",
+    "description": "Delicioso espresso doble clásico.",
+    "price": 42,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Mocha Chocolate Grande",
+    "description": "Delicioso mocha chocolate grande.",
+    "price": 45,
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Café Americano Con leche de almendra",
+    "description": "Delicioso café americano con leche de almendra.",
+    "price": 46,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Sin azúcar",
+    "description": "Delicioso cold brew clásico sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Té Chai Latte Sin azúcar",
+    "description": "Delicioso té chai latte sin azúcar.",
+    "price": 37,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306182"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Clásico",
+    "description": "Delicioso cheesecake de fresa clásico.",
+    "price": 38,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Galleta de Avena Con topping de frutas",
+    "description": "Delicioso galleta de avena con topping de frutas.",
+    "price": 41,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Té Chai Latte Clásico",
+    "description": "Delicioso té chai latte clásico.",
+    "price": 46,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Especial",
+    "description": "Delicioso omelette de jamón especial.",
+    "price": 39,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Clásico",
+    "description": "Delicioso empanada de espinaca clásico.",
+    "price": 36,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Especial",
+    "description": "Delicioso smoothie de mango especial.",
+    "price": 40,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Con leche de almendra",
+    "description": "Delicioso smoothie de mango con leche de almendra.",
+    "price": 25,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Galleta de Avena Con extra de chocolate",
+    "description": "Delicioso galleta de avena con extra de chocolate.",
+    "price": 20,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Café Helado Clásico",
+    "description": "Delicioso café helado clásico.",
+    "price": 21,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Integral",
+    "description": "Delicioso tostadas francesas integral.",
+    "price": 33,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Grande",
+    "description": "Delicioso té helado de limón grande.",
+    "price": 34,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Sin azúcar",
+    "description": "Delicioso cheesecake de fresa sin azúcar.",
+    "price": 37,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Clásico",
+    "description": "Delicioso frappuccino de vainilla clásico.",
+    "price": 38,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Mocha Chocolate Clásico",
+    "description": "Delicioso mocha chocolate clásico.",
+    "price": 22,
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Clásico",
+    "description": "Delicioso bagel con queso crema clásico.",
+    "price": 27,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Café Helado Sin azúcar",
+    "description": "Delicioso café helado sin azúcar.",
+    "price": 44,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Con extra de chocolate",
+    "description": "Delicioso muffin de chocolate con extra de chocolate.",
+    "price": 31,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Con leche de almendra",
+    "description": "Delicioso frappuccino de vainilla con leche de almendra.",
+    "price": 49,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Relleno de queso",
+    "description": "Delicioso omelette de jamón relleno de queso.",
+    "price": 48,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Clásico",
+    "description": "Delicioso smoothie de mango clásico.",
+    "price": 21,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306183"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Clásico",
+    "description": "Delicioso burrito de desayuno clásico.",
+    "price": 31,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Clásico",
+    "description": "Delicioso empanada de espinaca clásico.",
+    "price": 44,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Especial",
+    "description": "Delicioso sandwich de pollo especial.",
+    "price": 39,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Espresso Doble Con leche de almendra",
+    "description": "Delicioso espresso doble con leche de almendra.",
+    "price": 25,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Sin azúcar",
+    "description": "Delicioso brownie de chocolate sin azúcar.",
+    "price": 43,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Sin azúcar",
+    "description": "Delicioso frappuccino de vainilla sin azúcar.",
+    "price": 30,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Clásico",
+    "description": "Delicioso muffin de chocolate clásico.",
+    "price": 34,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Con leche de almendra",
+    "description": "Delicioso té helado de limón con leche de almendra.",
+    "price": 31,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Sandwich Vegetariano Clásico",
+    "description": "Delicioso sandwich vegetariano clásico.",
+    "price": 31,
+    "ingredients": [
+      "vegetales",
+      "pan integral",
+      "queso"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Con leche de almendra",
+    "description": "Delicioso smoothie de mango con leche de almendra.",
+    "price": 39,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Integral",
+    "description": "Delicioso tostadas francesas integral.",
+    "price": 31,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Café Americano Extra shot de espresso",
+    "description": "Delicioso café americano extra shot de espresso.",
+    "price": 44,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Café Helado Con leche de almendra",
+    "description": "Delicioso café helado con leche de almendra.",
+    "price": 48,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Waffles con Miel Clásico",
+    "description": "Delicioso waffles con miel clásico.",
+    "price": 31,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Clásico",
+    "description": "Delicioso croissant de mantequilla clásico.",
+    "price": 45,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Relleno de queso",
+    "description": "Delicioso omelette de jamón relleno de queso.",
+    "price": 37,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Relleno de queso",
+    "description": "Delicioso tostadas francesas relleno de queso.",
+    "price": 49,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Relleno de queso",
+    "description": "Delicioso omelette de jamón relleno de queso.",
+    "price": 38,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Waffles con Miel Clásico",
+    "description": "Delicioso waffles con miel clásico.",
+    "price": 49,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Sin azúcar",
+    "description": "Delicioso chocolate caliente sin azúcar.",
+    "price": 31,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306184"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Clásico",
+    "description": "Delicioso smoothie de fresa clásico.",
+    "price": 46,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Waffles con Miel Clásico",
+    "description": "Delicioso waffles con miel clásico.",
+    "price": 42,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Clásico",
+    "description": "Delicioso bagel con queso crema clásico.",
+    "price": 39,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Mocha Chocolate Extra shot de espresso",
+    "description": "Delicioso mocha chocolate extra shot de espresso.",
+    "price": 30,
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Clásico",
+    "description": "Delicioso bagel con queso crema clásico.",
+    "price": 47,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Espresso Simple Grande",
+    "description": "Delicioso espresso simple grande.",
+    "price": 26,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Especial",
+    "description": "Delicioso smoothie de mango especial.",
+    "price": 43,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Receta especial",
+    "description": "Delicioso cheesecake de fresa receta especial.",
+    "price": 49,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Té Chai Latte Con leche de almendra",
+    "description": "Delicioso té chai latte con leche de almendra.",
+    "price": 49,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Receta especial",
+    "description": "Delicioso cheesecake de fresa receta especial.",
+    "price": 38,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Café Helado Especial",
+    "description": "Delicioso café helado especial.",
+    "price": 33,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Té Chai Latte Grande",
+    "description": "Delicioso té chai latte grande.",
+    "price": 47,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Waffles con Miel Integral",
+    "description": "Delicioso waffles con miel integral.",
+    "price": 46,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Clásico",
+    "description": "Delicioso tostadas francesas clásico.",
+    "price": 30,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Receta especial",
+    "description": "Delicioso muffin de chocolate receta especial.",
+    "price": 39,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Sin azúcar",
+    "description": "Delicioso pastel de zanahoria sin azúcar.",
+    "price": 21,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Clásico",
+    "description": "Delicioso croissant de mantequilla clásico.",
+    "price": 45,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Relleno de queso",
+    "description": "Delicioso bagel con queso crema relleno de queso.",
+    "price": 28,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Especial",
+    "description": "Delicioso chocolate caliente especial.",
+    "price": 35,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Galleta de Avena Con extra de chocolate",
+    "description": "Delicioso galleta de avena con extra de chocolate.",
+    "price": 36,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306185"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Especial",
+    "description": "Delicioso tostadas francesas especial.",
+    "price": 46,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Receta especial",
+    "description": "Delicioso brownie de chocolate receta especial.",
+    "price": 29,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Capuccino Con leche de almendra",
+    "description": "Delicioso capuccino con leche de almendra.",
+    "price": 28,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Té Chai Latte Clásico",
+    "description": "Delicioso té chai latte clásico.",
+    "price": 43,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Especial",
+    "description": "Delicioso omelette de jamón especial.",
+    "price": 32,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Con leche de almendra",
+    "description": "Delicioso té helado de limón con leche de almendra.",
+    "price": 32,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Con extra de chocolate",
+    "description": "Delicioso muffin de arándano con extra de chocolate.",
+    "price": 31,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con topping de frutas",
+    "description": "Delicioso pastel de zanahoria con topping de frutas.",
+    "price": 28,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Sin azúcar",
+    "description": "Delicioso cold brew clásico sin azúcar.",
+    "price": 21,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Clásico",
+    "description": "Delicioso omelette vegetariano clásico.",
+    "price": 43,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Latte Clásico Sin azúcar",
+    "description": "Delicioso latte clásico sin azúcar.",
+    "price": 31,
+    "ingredients": [
+      "espresso",
+      "leche vaporizada"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Integral",
+    "description": "Delicioso tostadas francesas integral.",
+    "price": 35,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Especial",
+    "description": "Delicioso sandwich de pollo especial.",
+    "price": 23,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Especial",
+    "description": "Delicioso empanada de pollo especial.",
+    "price": 39,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Café Americano Grande",
+    "description": "Delicioso café americano grande.",
+    "price": 36,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Receta especial",
+    "description": "Delicioso pastel de zanahoria receta especial.",
+    "price": 24,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Con topping de frutas",
+    "description": "Delicioso cheesecake de fresa con topping de frutas.",
+    "price": 41,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Clásico",
+    "description": "Delicioso empanada de pollo clásico.",
+    "price": 45,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Artesanal",
+    "description": "Delicioso croissant de jamón y queso artesanal.",
+    "price": 24,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Espresso Simple Con leche de almendra",
+    "description": "Delicioso espresso simple con leche de almendra.",
+    "price": 43,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306186"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Con topping de frutas",
+    "description": "Delicioso muffin de arándano con topping de frutas.",
+    "price": 37,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Integral",
+    "description": "Delicioso empanada de pollo integral.",
+    "price": 22,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Relleno de queso",
+    "description": "Delicioso bagel con queso crema relleno de queso.",
+    "price": 36,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Sin azúcar",
+    "description": "Delicioso cold brew clásico sin azúcar.",
+    "price": 46,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Con topping de frutas",
+    "description": "Delicioso cheesecake de fresa con topping de frutas.",
+    "price": 39,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Sin azúcar",
+    "description": "Delicioso cheesecake de fresa sin azúcar.",
+    "price": 23,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Especial",
+    "description": "Delicioso smoothie de fresa especial.",
+    "price": 34,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Especial",
+    "description": "Delicioso té helado de limón especial.",
+    "price": 45,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Mocha Chocolate Extra shot de espresso",
+    "description": "Delicioso mocha chocolate extra shot de espresso.",
+    "price": 44,
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Mocha Chocolate Especial",
+    "description": "Delicioso mocha chocolate especial.",
+    "price": 45,
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Integral",
+    "description": "Delicioso croissant de mantequilla integral.",
+    "price": 49,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Grande",
+    "description": "Delicioso té helado de limón grande.",
+    "price": 27,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Integral",
+    "description": "Delicioso tostadas francesas integral.",
+    "price": 45,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Omelette de Jamón Clásico",
+    "description": "Delicioso omelette de jamón clásico.",
+    "price": 33,
+    "ingredients": [
+      "huevo",
+      "jamón",
+      "queso"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Té Chai Latte Con leche de almendra",
+    "description": "Delicioso té chai latte con leche de almendra.",
+    "price": 21,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Receta especial",
+    "description": "Delicioso muffin de chocolate receta especial.",
+    "price": 48,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Té Chai Latte Sin azúcar",
+    "description": "Delicioso té chai latte sin azúcar.",
+    "price": 34,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Waffles con Miel Integral",
+    "description": "Delicioso waffles con miel integral.",
+    "price": 20,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Sandwich de Pollo Clásico",
+    "description": "Delicioso sandwich de pollo clásico.",
+    "price": 36,
+    "ingredients": [
+      "pollo",
+      "lechuga",
+      "pan"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Con leche de almendra",
+    "description": "Delicioso smoothie de mango con leche de almendra.",
+    "price": 20,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306187"
+    }
+  },
+  {
+    "name": "Té Chai Latte Sin azúcar",
+    "description": "Delicioso té chai latte sin azúcar.",
+    "price": 38,
+    "ingredients": [
+      "té chai",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Integral",
+    "description": "Delicioso croissant de jamón y queso integral.",
+    "price": 33,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Clásico",
+    "description": "Delicioso croissant de mantequilla clásico.",
+    "price": 30,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Mocha Chocolate Con leche de almendra",
+    "description": "Delicioso mocha chocolate con leche de almendra.",
+    "price": 21,
+    "ingredients": [
+      "espresso",
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Integral",
+    "description": "Delicioso bagel con queso crema integral.",
+    "price": 43,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Espresso Doble Extra shot de espresso",
+    "description": "Delicioso espresso doble extra shot de espresso.",
+    "price": 36,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Frappuccino de Vainilla Grande",
+    "description": "Delicioso frappuccino de vainilla grande.",
+    "price": 49,
+    "ingredients": [
+      "café",
+      "hielo",
+      "vainilla"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Con topping de frutas",
+    "description": "Delicioso muffin de chocolate con topping de frutas.",
+    "price": 34,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Relleno de queso",
+    "description": "Delicioso omelette vegetariano relleno de queso.",
+    "price": 38,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Cold Brew Clásico Clásico",
+    "description": "Delicioso cold brew clásico clásico.",
+    "price": 36,
+    "ingredients": [
+      "café frío concentrado",
+      "agua"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Especial",
+    "description": "Delicioso bagel con queso crema especial.",
+    "price": 44,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Especial",
+    "description": "Delicioso empanada de espinaca especial.",
+    "price": 37,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Espresso Simple Extra shot de espresso",
+    "description": "Delicioso espresso simple extra shot de espresso.",
+    "price": 29,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Café Helado Con leche de almendra",
+    "description": "Delicioso café helado con leche de almendra.",
+    "price": 46,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Waffles con Miel Clásico",
+    "description": "Delicioso waffles con miel clásico.",
+    "price": 26,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Galleta de Avena Clásico",
+    "description": "Delicioso galleta de avena clásico.",
+    "price": 25,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Integral",
+    "description": "Delicioso burrito de desayuno integral.",
+    "price": 20,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Muffin de Arándano Con extra de chocolate",
+    "description": "Delicioso muffin de arándano con extra de chocolate.",
+    "price": 37,
+    "ingredients": [
+      "arándanos",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Bagel con Queso Crema Integral",
+    "description": "Delicioso bagel con queso crema integral.",
+    "price": 37,
+    "ingredients": [
+      "bagel",
+      "queso crema"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Clásico",
+    "description": "Delicioso té helado de limón clásico.",
+    "price": 44,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306188"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Artesanal",
+    "description": "Delicioso croissant de jamón y queso artesanal.",
+    "price": 28,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Waffles con Miel Especial",
+    "description": "Delicioso waffles con miel especial.",
+    "price": 36,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Waffles con Miel Especial",
+    "description": "Delicioso waffles con miel especial.",
+    "price": 46,
+    "ingredients": [
+      "harina",
+      "miel",
+      "huevo"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Relleno de queso",
+    "description": "Delicioso burrito de desayuno relleno de queso.",
+    "price": 32,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Clásico",
+    "description": "Delicioso croissant de jamón y queso clásico.",
+    "price": 21,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Receta especial",
+    "description": "Delicioso pastel de zanahoria receta especial.",
+    "price": 20,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Especial",
+    "description": "Delicioso burrito de desayuno especial.",
+    "price": 21,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Café Helado Especial",
+    "description": "Delicioso café helado especial.",
+    "price": 42,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Con extra de chocolate",
+    "description": "Delicioso muffin de chocolate con extra de chocolate.",
+    "price": 39,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Capuccino Grande",
+    "description": "Delicioso capuccino grande.",
+    "price": 22,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Café Helado Especial",
+    "description": "Delicioso café helado especial.",
+    "price": 27,
+    "ingredients": [
+      "café frío",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con extra de chocolate",
+    "description": "Delicioso pastel de zanahoria con extra de chocolate.",
+    "price": 34,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Sin azúcar",
+    "description": "Delicioso cheesecake de fresa sin azúcar.",
+    "price": 26,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Especial",
+    "description": "Delicioso empanada de espinaca especial.",
+    "price": 28,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Sin azúcar",
+    "description": "Delicioso cheesecake de fresa sin azúcar.",
+    "price": 44,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Café Americano Especial",
+    "description": "Delicioso café americano especial.",
+    "price": 25,
+    "ingredients": [
+      "agua",
+      "café"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Relleno de queso",
+    "description": "Delicioso tostadas francesas relleno de queso.",
+    "price": 20,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Extra shot de espresso",
+    "description": "Delicioso chocolate caliente extra shot de espresso.",
+    "price": 48,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Clásico",
+    "description": "Delicioso muffin de chocolate clásico.",
+    "price": 36,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Espresso Doble Clásico",
+    "description": "Delicioso espresso doble clásico.",
+    "price": 20,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a306189"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Clásico",
+    "description": "Delicioso empanada de pollo clásico.",
+    "price": 44,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Receta especial",
+    "description": "Delicioso pastel de zanahoria receta especial.",
+    "price": 32,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Galleta de Avena Sin azúcar",
+    "description": "Delicioso galleta de avena sin azúcar.",
+    "price": 30,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Espresso Doble Extra shot de espresso",
+    "description": "Delicioso espresso doble extra shot de espresso.",
+    "price": 40,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Especial",
+    "description": "Delicioso smoothie de mango especial.",
+    "price": 43,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Empanada de Espinaca Clásico",
+    "description": "Delicioso empanada de espinaca clásico.",
+    "price": 26,
+    "ingredients": [
+      "espinaca",
+      "queso",
+      "masa"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Smoothie de Fresa Con leche de almendra",
+    "description": "Delicioso smoothie de fresa con leche de almendra.",
+    "price": 46,
+    "ingredients": [
+      "fresas",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Té Helado de Limón Grande",
+    "description": "Delicioso té helado de limón grande.",
+    "price": 33,
+    "ingredients": [
+      "té negro",
+      "limón",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Receta especial",
+    "description": "Delicioso muffin de chocolate receta especial.",
+    "price": 30,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con extra de chocolate",
+    "description": "Delicioso pastel de zanahoria con extra de chocolate.",
+    "price": 22,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Muffin de Chocolate Sin azúcar",
+    "description": "Delicioso muffin de chocolate sin azúcar.",
+    "price": 46,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Sin azúcar",
+    "description": "Delicioso brownie de chocolate sin azúcar.",
+    "price": 28,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Clásico",
+    "description": "Delicioso empanada de pollo clásico.",
+    "price": 47,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Tostadas Francesas Integral",
+    "description": "Delicioso tostadas francesas integral.",
+    "price": 24,
+    "ingredients": [
+      "pan",
+      "huevo",
+      "canela"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con extra de chocolate",
+    "description": "Delicioso brownie de chocolate con extra de chocolate.",
+    "price": 30,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Galleta de Avena Con extra de chocolate",
+    "description": "Delicioso galleta de avena con extra de chocolate.",
+    "price": 26,
+    "ingredients": [
+      "avena",
+      "harina",
+      "miel"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Integral",
+    "description": "Delicioso croissant de jamón y queso integral.",
+    "price": 47,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Clásico",
+    "description": "Delicioso burrito de desayuno clásico.",
+    "price": 44,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Con extra de chocolate",
+    "description": "Delicioso cheesecake de fresa con extra de chocolate.",
+    "price": 42,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Clásico",
+    "description": "Delicioso burrito de desayuno clásico.",
+    "price": 21,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618a"
+    }
+  },
+  {
+    "name": "Capuccino Sin azúcar",
+    "description": "Delicioso capuccino sin azúcar.",
+    "price": 36,
+    "ingredients": [
+      "espresso",
+      "leche",
+      "espuma"
+    ],
+    "category": "bebida caliente",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Receta especial",
+    "description": "Delicioso pastel de zanahoria receta especial.",
+    "price": 39,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Burrito de Desayuno Clásico",
+    "description": "Delicioso burrito de desayuno clásico.",
+    "price": 37,
+    "ingredients": [
+      "huevo",
+      "frijol",
+      "tortilla"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Empanada de Pollo Integral",
+    "description": "Delicioso empanada de pollo integral.",
+    "price": 38,
+    "ingredients": [
+      "pollo",
+      "masa de empanada"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Omelette Vegetariano Clásico",
+    "description": "Delicioso omelette vegetariano clásico.",
+    "price": 21,
+    "ingredients": [
+      "huevo",
+      "espinacas",
+      "tomate"
+    ],
+    "category": "desayuno",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Especial",
+    "description": "Delicioso smoothie de mango especial.",
+    "price": 27,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Cheesecake de Fresa Con extra de chocolate",
+    "description": "Delicioso cheesecake de fresa con extra de chocolate.",
+    "price": 24,
+    "ingredients": [
+      "queso crema",
+      "fresa",
+      "galleta"
+    ],
+    "category": "postre",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Clásico",
+    "description": "Delicioso croissant de mantequilla clásico.",
+    "price": 44,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Clásico",
+    "description": "Delicioso croissant de jamón y queso clásico.",
+    "price": 21,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Grande",
+    "description": "Delicioso chocolate caliente grande.",
+    "price": 29,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con extra de chocolate",
+    "description": "Delicioso brownie de chocolate con extra de chocolate.",
+    "price": 37,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Brownie de Chocolate Con topping de frutas",
+    "description": "Delicioso brownie de chocolate con topping de frutas.",
+    "price": 22,
+    "ingredients": [
+      "chocolate",
+      "harina",
+      "azúcar"
+    ],
+    "category": "postre",
+    "available": false,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con extra de chocolate",
+    "description": "Delicioso pastel de zanahoria con extra de chocolate.",
+    "price": 31,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Croissant de Mantequilla Artesanal",
+    "description": "Delicioso croissant de mantequilla artesanal.",
+    "price": 23,
+    "ingredients": [
+      "harina",
+      "mantequilla"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Clásico",
+    "description": "Delicioso smoothie de mango clásico.",
+    "price": 38,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Espresso Simple Clásico",
+    "description": "Delicioso espresso simple clásico.",
+    "price": 20,
+    "ingredients": [
+      "espresso"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Pastel de Zanahoria Con topping de frutas",
+    "description": "Delicioso pastel de zanahoria con topping de frutas.",
+    "price": 26,
+    "ingredients": [
+      "zanahoria",
+      "harina",
+      "nuez"
+    ],
+    "category": "postre",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Chocolate Caliente Especial",
+    "description": "Delicioso chocolate caliente especial.",
+    "price": 25,
+    "ingredients": [
+      "chocolate",
+      "leche"
+    ],
+    "category": "bebida caliente",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Croissant de Jamón y Queso Artesanal",
+    "description": "Delicioso croissant de jamón y queso artesanal.",
+    "price": 35,
+    "ingredients": [
+      "jamón",
+      "queso",
+      "masa hojaldre"
+    ],
+    "category": "snack",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  },
+  {
+    "name": "Smoothie de Mango Grande",
+    "description": "Delicioso smoothie de mango grande.",
+    "price": 38,
+    "ingredients": [
+      "mango",
+      "yogurt",
+      "hielo"
+    ],
+    "category": "bebida fría",
+    "available": true,
+    "restaurant_id": {
+      "$oid": "680ffc395e6b67012a30618b"
+    }
+  }
+]

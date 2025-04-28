@@ -1,96 +1,6 @@
 [{
   "_id": {
-    "$oid": "680eb579bd71faa91ef136ba"
-  },
-  "name": "Don Nicolás Zona 10",
-  "address": "14 Calle 5-33, Zona 10, Ciudad de Guatemala",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -90.5124,
-      14.5831
-    ]
-  },
-  "schedule": {
-    "open": "06:00",
-    "close": "19:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136bb"
-  },
-  "name": "Don Nicolás Totonicapán",
-  "address": "1a Calle 5-20, Totonicapán",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -91.3652,
-      14.9119
-    ]
-  },
-  "schedule": {
-    "open": "05:00",
-    "close": "21:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136bc"
-  },
-  "name": "Don Nicolás Jalapa",
-  "address": "2a Avenida 3-55, Jalapa",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -89.9906,
-      14.6325
-    ]
-  },
-  "schedule": {
-    "open": "07:00",
-    "close": "20:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136bd"
-  },
-  "name": "Don Nicolás Zacapa",
-  "address": "4a Calle 7-23, Zacapa",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -89.5354,
-      14.9728
-    ]
-  },
-  "schedule": {
-    "open": "06:00",
-    "close": "18:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136be"
-  },
-  "name": "Don Nicolás Jutiapa",
-  "address": "5a Avenida 1-13, Jutiapa",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -89.8957,
-      14.2905
-    ]
-  },
-  "schedule": {
-    "open": "07:00",
-    "close": "21:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136bf"
+    "$oid": "680ffc395e6b67012a306173"
   },
   "name": "Don Nicolás Mazatenango",
   "address": "5a Calle 2-44, Mazatenango",
@@ -103,12 +13,66 @@
   },
   "schedule": {
     "open": "10:00",
+    "close": "17:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306174"
+  },
+  "name": "Don Nicolás Xela",
+  "address": "12 Avenida 3-45, Quetzaltenango",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -91.5189,
+      14.8348
+    ]
+  },
+  "schedule": {
+    "open": "07:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306175"
+  },
+  "name": "Don Nicolás Totonicapán",
+  "address": "1a Calle 5-20, Totonicapán",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -91.3652,
+      14.9119
+    ]
+  },
+  "schedule": {
+    "open": "07:00",
     "close": "20:00"
   }
 },
 {
   "_id": {
-    "$oid": "680eb579bd71faa91ef136c0"
+    "$oid": "680ffc395e6b67012a306176"
+  },
+  "name": "Don Nicolás Jalapa",
+  "address": "2a Avenida 3-55, Jalapa",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -89.9906,
+      14.6325
+    ]
+  },
+  "schedule": {
+    "open": "07:00",
+    "close": "18:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306177"
   },
   "name": "Don Nicolás Escuintla",
   "address": "Avenida Centroamérica 2-18, Escuintla",
@@ -121,12 +85,30 @@
   },
   "schedule": {
     "open": "10:00",
-    "close": "18:00"
+    "close": "22:00"
   }
 },
 {
   "_id": {
-    "$oid": "680eb579bd71faa91ef136c1"
+    "$oid": "680ffc395e6b67012a306178"
+  },
+  "name": "Don Nicolás Zacapa",
+  "address": "4a Calle 7-23, Zacapa",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -89.5354,
+      14.9728
+    ]
+  },
+  "schedule": {
+    "open": "08:00",
+    "close": "20:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306179"
   },
   "name": "Don Nicolás Santa Rosa",
   "address": "3a Calle 6-33, Cuilapa",
@@ -138,13 +120,247 @@
     ]
   },
   "schedule": {
+    "open": "06:00",
+    "close": "17:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a30617a"
+  },
+  "name": "Don Nicolás Huehuetenango",
+  "address": "2a Avenida 4-17, Huehuetenango",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -91.4767,
+      15.319
+    ]
+  },
+  "schedule": {
+    "open": "05:00",
+    "close": "19:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a30617b"
+  },
+  "name": "Don Nicolás Sololá",
+  "address": "7a Calle 3-11, Sololá",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -91.1832,
+      14.7744
+    ]
+  },
+  "schedule": {
     "open": "07:00",
+    "close": "18:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a30617c"
+  },
+  "name": "Don Nicolás Jutiapa",
+  "address": "5a Avenida 1-13, Jutiapa",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -89.8957,
+      14.2905
+    ]
+  },
+  "schedule": {
+    "open": "10:00",
+    "close": "17:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a30617d"
+  },
+  "name": "Don Nicolás Zona 1",
+  "address": "5ta Avenida 10-55, Zona 1, Ciudad de Guatemala",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -90.5133,
+      14.6349
+    ]
+  },
+  "schedule": {
+    "open": "09:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a30617e"
+  },
+  "name": "Don Nicolás Retalhuleu",
+  "address": "1a Avenida 2-66, Retalhuleu",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -91.6857,
+      14.5347
+    ]
+  },
+  "schedule": {
+    "open": "08:00",
     "close": "21:00"
   }
 },
 {
   "_id": {
-    "$oid": "680eb579bd71faa91ef136c2"
+    "$oid": "680ffc395e6b67012a30617f"
+  },
+  "name": "Don Nicolás San Marcos",
+  "address": "6a Avenida 8-90, San Marcos",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -91.7993,
+      14.9664
+    ]
+  },
+  "schedule": {
+    "open": "08:00",
+    "close": "20:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306180"
+  },
+  "name": "Don Nicolás Chiquimula",
+  "address": "4a Avenida 5-19, Chiquimula",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -89.5423,
+      14.8009
+    ]
+  },
+  "schedule": {
+    "open": "06:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306181"
+  },
+  "name": "Don Nicolás Petén",
+  "address": "3a Avenida 2-45, Flores",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -89.8865,
+      16.9256
+    ]
+  },
+  "schedule": {
+    "open": "07:00",
+    "close": "18:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306182"
+  },
+  "name": "Don Nicolás Sacatepéquez",
+  "address": "2a Calle 4-10, Antigua Guatemala",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -90.7343,
+      14.5586
+    ]
+  },
+  "schedule": {
+    "open": "07:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306183"
+  },
+  "name": "Don Nicolás Alta Verapaz",
+  "address": "6a Calle 8-24, Cobán",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -90.3693,
+      15.4714
+    ]
+  },
+  "schedule": {
+    "open": "05:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306184"
+  },
+  "name": "Don Nicolás Zona 10",
+  "address": "14 Calle 5-33, Zona 10, Ciudad de Guatemala",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -90.5124,
+      14.5831
+    ]
+  },
+  "schedule": {
+    "open": "08:00",
+    "close": "20:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306185"
+  },
+  "name": "Don Nicolás Zona 11",
+  "address": "Calzada Roosevelt 7-22, Zona 11, Ciudad de Guatemala",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -90.5614,
+      14.6095
+    ]
+  },
+  "schedule": {
+    "open": "07:00",
+    "close": "19:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306186"
+  },
+  "name": "Don Nicolás Chimaltenango",
+  "address": "2a Calle 4-56, Chimaltenango",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -90.82,
+      14.6594
+    ]
+  },
+  "schedule": {
+    "open": "10:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "680ffc395e6b67012a306187"
   },
   "name": "Don Nicolás Cobán",
   "address": "3a Avenida 6-77, Cobán",
@@ -162,25 +378,7 @@
 },
 {
   "_id": {
-    "$oid": "680eb579bd71faa91ef136c3"
-  },
-  "name": "Don Nicolás Chimaltenango",
-  "address": "2a Calle 4-56, Chimaltenango",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -90.82,
-      14.6594
-    ]
-  },
-  "schedule": {
-    "open": "05:00",
-    "close": "21:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136c4"
+    "$oid": "680ffc395e6b67012a306188"
   },
   "name": "Don Nicolás Puerto Barrios",
   "address": "10a Avenida 5-11, Puerto Barrios",
@@ -192,211 +390,13 @@
     ]
   },
   "schedule": {
-    "open": "06:00",
+    "open": "09:00",
     "close": "18:00"
   }
 },
 {
   "_id": {
-    "$oid": "680eb579bd71faa91ef136c5"
-  },
-  "name": "Don Nicolás Huehuetenango",
-  "address": "2a Avenida 4-17, Huehuetenango",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -91.4767,
-      15.319
-    ]
-  },
-  "schedule": {
-    "open": "09:00",
-    "close": "17:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136c6"
-  },
-  "name": "Don Nicolás San Marcos",
-  "address": "6a Avenida 8-90, San Marcos",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -91.7993,
-      14.9664
-    ]
-  },
-  "schedule": {
-    "open": "08:00",
-    "close": "22:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136c7"
-  },
-  "name": "Don Nicolás Sololá",
-  "address": "7a Calle 3-11, Sololá",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -91.1832,
-      14.7744
-    ]
-  },
-  "schedule": {
-    "open": "05:00",
-    "close": "22:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136c8"
-  },
-  "name": "Don Nicolás Xela",
-  "address": "12 Avenida 3-45, Quetzaltenango",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -91.5189,
-      14.8348
-    ]
-  },
-  "schedule": {
-    "open": "10:00",
-    "close": "17:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136c9"
-  },
-  "name": "Don Nicolás Retalhuleu",
-  "address": "1a Avenida 2-66, Retalhuleu",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -91.6857,
-      14.5347
-    ]
-  },
-  "schedule": {
-    "open": "10:00",
-    "close": "21:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136ca"
-  },
-  "name": "Don Nicolás Petén",
-  "address": "3a Avenida 2-45, Flores",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -89.8865,
-      16.9256
-    ]
-  },
-  "schedule": {
-    "open": "08:00",
-    "close": "17:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136cb"
-  },
-  "name": "Don Nicolás Sacatepéquez",
-  "address": "2a Calle 4-10, Antigua Guatemala",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -90.7343,
-      14.5586
-    ]
-  },
-  "schedule": {
-    "open": "06:00",
-    "close": "18:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136cc"
-  },
-  "name": "Don Nicolás Alta Verapaz",
-  "address": "6a Calle 8-24, Cobán",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -90.3693,
-      15.4714
-    ]
-  },
-  "schedule": {
-    "open": "09:00",
-    "close": "21:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136cd"
-  },
-  "name": "Don Nicolás Chiquimula",
-  "address": "4a Avenida 5-19, Chiquimula",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -89.5423,
-      14.8009
-    ]
-  },
-  "schedule": {
-    "open": "07:00",
-    "close": "19:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136ce"
-  },
-  "name": "Don Nicolás Zona 14",
-  "address": "7a Avenida 15-20, Zona 14, Ciudad de Guatemala",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -90.5002,
-      14.5825
-    ]
-  },
-  "schedule": {
-    "open": "10:00",
-    "close": "19:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136cf"
-  },
-  "name": "Don Nicolás Antigua",
-  "address": "5a Avenida Norte 29, Antigua Guatemala",
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      -90.7343,
-      14.5586
-    ]
-  },
-  "schedule": {
-    "open": "06:00",
-    "close": "20:00"
-  }
-},
-{
-  "_id": {
-    "$oid": "680eb579bd71faa91ef136d0"
+    "$oid": "680ffc395e6b67012a306189"
   },
   "name": "Don Nicolás Zona 13",
   "address": "Avenida La Reforma 8-66, Zona 13, Ciudad de Guatemala",
@@ -408,43 +408,43 @@
     ]
   },
   "schedule": {
-    "open": "05:00",
-    "close": "21:00"
+    "open": "07:00",
+    "close": "17:00"
   }
 },
 {
   "_id": {
-    "$oid": "680eb579bd71faa91ef136d1"
+    "$oid": "680ffc395e6b67012a30618a"
   },
-  "name": "Don Nicolás Zona 11",
-  "address": "Calzada Roosevelt 7-22, Zona 11, Ciudad de Guatemala",
+  "name": "Don Nicolás Zona 14",
+  "address": "7a Avenida 15-20, Zona 14, Ciudad de Guatemala",
   "location": {
     "type": "Point",
     "coordinates": [
-      -90.5614,
-      14.6095
+      -90.5002,
+      14.5825
     ]
   },
   "schedule": {
-    "open": "07:00",
+    "open": "05:00",
     "close": "18:00"
   }
 },
 {
   "_id": {
-    "$oid": "680eb579bd71faa91ef136d2"
+    "$oid": "680ffc395e6b67012a30618b"
   },
-  "name": "Don Nicolás Zona 1",
-  "address": "5ta Avenida 10-55, Zona 1, Ciudad de Guatemala",
+  "name": "Don Nicolás Antigua",
+  "address": "5a Avenida Norte 29, Antigua Guatemala",
   "location": {
     "type": "Point",
     "coordinates": [
-      -90.5133,
-      14.6349
+      -90.7343,
+      14.5586
     ]
   },
   "schedule": {
-    "open": "05:00",
-    "close": "20:00"
+    "open": "08:00",
+    "close": "21:00"
   }
 }]
