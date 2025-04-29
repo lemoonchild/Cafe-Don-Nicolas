@@ -7,6 +7,11 @@ import restaurantRoutes from "@routes/restaurantRoutes.ts";
 import menuItemsRoutes from "@routes/menuItemsRoutes.ts";
 import reviewRoutes from "@routes/reviewRoutes.ts";
 import orderRoutes from "@routes/orderRoutes.ts";
+import userStatsRoutes from "@routes/aggregations/userStatsRoutes.ts";
+import restaurantStatsRoutes from "@routes/aggregations/restaurantStatsRoutes.ts";
+import menuItemsStatsRoutes from "@routes/aggregations/menuItemsStatsRoutes.ts";
+import reviewStatsRoutes from "@routes/aggregations/reviewsStatsRoutes.ts";
+import orderStatsRoutes from "@routes/aggregations/orderStatsRoutes.ts";
 
 dotenv.config();
 
@@ -23,9 +28,16 @@ app.get("/", (_: Request, res: Response) => {
 });
 
 app.use("/api/users", userRoutes);
-app.use("/api/restaurants", restaurantRoutes); 
+app.use("/api/restaurants", restaurantRoutes);
 app.use("/api/menu-items", menuItemsRoutes);
 app.use("/api/reviews", reviewRoutes);
 app.use("/api/orders", orderRoutes);
+
+app.use("/api/users/stats", userStatsRoutes);
+app.use("/api/restaurants/stats", restaurantStatsRoutes);
+app.use("/api/menu-items/stats", menuItemsStatsRoutes);
+
+app.use("/api/reviews/stats", reviewStatsRoutes);
+app.use("/api/orders/stats", orderStatsRoutes);
 
 app.listen(PORT, () => console.log(`Servidor en http://localhost:${PORT}`));
