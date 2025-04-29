@@ -108,12 +108,16 @@ export const createManyMenuItems = async (req: Request, res: Response) => {
   const { items } = req.body;
 
   if (!items || !Array.isArray(items) || items.length === 0) {
-    return res.status(400).json({ message: "Debes enviar 'items' como un array no vacío." });
+    return res
+      .status(400)
+      .json({ message: "Debes enviar 'items' como un array no vacío." });
   }
 
   try {
     const result = await MenuItem.insertMany(items);
-    res.status(201).json({ message: `Se crearon ${result.length} productos.`, result });
+    res
+      .status(201)
+      .json({ message: `Se crearon ${result.length} productos.`, result });
   } catch (error) {
     res.status(500).json({ message: "Error al crear productos.", error });
   }
@@ -123,25 +127,32 @@ export const updateManyMenuItems = async (req: Request, res: Response) => {
   const { filter, update } = req.body;
 
   if (!filter || !update) {
-    return res.status(400).json({ message: "Debes enviar 'filter' y 'update'." });
+    return res
+      .status(400)
+      .json({ message: "Debes enviar 'filter' y 'update'." });
   }
 
   const result = await MenuItem.updateMany(filter, update);
-  res.json({ message: `Se actualizaron ${result.modifiedCount} productos.`, result });
+  res.json({
+    message: `Se actualizaron ${result.modifiedCount} productos.`,
+    result,
+  });
 };
 
 export const updateManyMenuItemsByIds = async (req: Request, res: Response) => {
   const { ids, update } = req.body;
 
   if (!ids || !Array.isArray(ids) || !update) {
-    return res.status(400).json({ message: "Debes enviar 'ids' (array) y 'update'." });
+    return res
+      .status(400)
+      .json({ message: "Debes enviar 'ids' (array) y 'update'." });
   }
 
-  const result = await MenuItem.updateMany(
-    { _id: { $in: ids } },
-    update
-  );
-  res.json({ message: `Se actualizaron ${result.modifiedCount} productos.`, result });
+  const result = await MenuItem.updateMany({ _id: { $in: ids } }, update);
+  res.json({
+    message: `Se actualizaron ${result.modifiedCount} productos.`,
+    result,
+  });
 };
 
 export const deleteManyMenuItems = async (req: Request, res: Response) => {
@@ -152,7 +163,10 @@ export const deleteManyMenuItems = async (req: Request, res: Response) => {
   }
 
   const result = await MenuItem.deleteMany(filter);
-  res.json({ message: `Se eliminaron ${result.deletedCount} productos.`, result });
+  res.json({
+    message: `Se eliminaron ${result.deletedCount} productos.`,
+    result,
+  });
 };
 
 export const deleteManyMenuItemsByIds = async (req: Request, res: Response) => {
@@ -162,10 +176,75 @@ export const deleteManyMenuItemsByIds = async (req: Request, res: Response) => {
     return res.status(400).json({ message: "Debes enviar 'ids' (array)." });
   }
 
-  const result = await MenuItem.deleteMany(
-    { _id: { $in: ids } }
-  );
-  res.json({ message: `Se eliminaron ${result.deletedCount} productos.`, result });
+  const result = await MenuItem.deleteMany({ _id: { $in: ids } });
+  res.json({
+    message: `Se eliminaron ${result.deletedCount} productos.`,
+    result,
+  });
 };
 
+// PATCH /api/menu-items/add-ingredient/:id
+export const addIngredient = async (req: Request, res: Response) => {
+  const { ingredient } = req.body;
 
+  if (!ingredient) {
+    return res.status(400).json({ message: "Debes enviar el 'ingredient'." });
+  }
+
+  const result = await MenuItem.findByIdAndUpdate(
+    req.params.id,
+    { $push: { ingredients: ingredient } },
+    { new: true }
+  );
+
+  if (!result) {
+    return res.status(404).json({ message: "MenuItem no encontrado." });
+  }
+
+  res.json({ message: "Ingrediente agregado correctamente.", result });
+};
+
+// PATCH /api/menu-items/remove-ingredient/:id
+export const removeIngredient = async (req: Request, res: Response) => {
+  const { ingredient } = req.body;
+
+  if (!ingredient) {
+    return res.status(400).json({ message: "Debes enviar el 'ingredient'." });
+  }
+
+  const result = await MenuItem.findByIdAndUpdate(
+    req.params.id,
+    { $pull: { ingredients: ingredient } },
+    { new: true }
+  );
+
+  if (!result) {
+    return res.status(404).json({ message: "MenuItem no encontrado." });
+  }
+
+  res.json({ message: "Ingrediente eliminado correctamente.", result });
+};
+
+// PATCH /api/menu-items/add-ingredient-unique/:id
+export const addIngredientUnique = async (req: Request, res: Response) => {
+  const { ingredient } = req.body;
+
+  if (!ingredient) {
+    return res.status(400).json({ message: "Debes enviar el 'ingredient'." });
+  }
+
+  const result = await MenuItem.findByIdAndUpdate(
+    req.params.id,
+    { $addToSet: { ingredients: ingredient } },
+    { new: true }
+  );
+
+  if (!result) {
+    return res.status(404).json({ message: "MenuItem no encontrado." });
+  }
+
+  res.json({
+    message: "Ingrediente agregado (únicamente si no existía).",
+    result,
+  });
+};
