@@ -114,14 +114,23 @@ export const getRestaurants = async (req: Request, res: Response) => {
   }
 
   const restaurants = await cursor.exec();
-  res.json(restaurants);
+  res.json(
+    restaurants.map((r: typeof Restaurant.prototype) => ({
+      ...r.toObject(),
+      image_url: r.image_id ? `/api/images/${r.image_id}` : null,
+    }))
+  );
 };
 
 export const getRestaurantById = async (req: Request, res: Response) => {
   const restaurant = await Restaurant.findById(req.params.id);
   if (!restaurant)
     return res.status(404).json({ message: "Restaurante no encontrado" });
-  res.json(restaurant);
+
+  res.json({
+    ...restaurant.toObject(),
+    image_url: restaurant.image_id ? `/api/images/${restaurant.image_id}` : null
+  });
 };
 
 export const createRestaurant = async (req: Request, res: Response) => {

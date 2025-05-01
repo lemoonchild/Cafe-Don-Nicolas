@@ -72,14 +72,22 @@ export const getMenuItems = async (req: Request, res: Response) => {
   if (skip) cursor = cursor.skip(parseInt(skip.toString()));
 
   const menuItems = await cursor.exec();
-  res.json(menuItems);
+  
+  res.json(menuItems.map(item => ({
+    ...item.toObject(),
+    image_url: item.image_id ? `/api/images/${item.image_id}` : null
+  })));
 };
 
 export const getMenuItemById = async (req: Request, res: Response) => {
   const menuItem = await MenuItem.findById(req.params.id);
   if (!menuItem)
     return res.status(404).json({ message: "Producto no encontrado" });
-  res.json(menuItem);
+  
+  res.json({
+    ...menuItem.toObject(),
+    image_url: menuItem.image_id ? `/api/images/${menuItem.image_id}` : null
+  });
 };
 
 export const createMenuItem = async (req: Request, res: Response) => {
