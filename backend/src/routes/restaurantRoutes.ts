@@ -13,6 +13,8 @@ import {
 } from "@controllers/restaurantController";
 import { asyncHandler } from "@middlewares/asyncHandler";
 import { validateObjectId } from "@middlewares/validateObjectId";
+import { upload } from "@config/upload";
+import { uploadRestaurantImage } from "@uploadImages/uploadRestaurantImage";
 
 const router = express.Router();
 
@@ -27,5 +29,12 @@ router.post("/update-many-by-ids", asyncHandler(updateManyRestaurantsByIds));
 router.post("/delete-many", asyncHandler(deleteManyRestaurants));
 router.post("/delete-many-by-ids", asyncHandler(deleteManyRestaurantsByIds));
 router.post("/create-many", asyncHandler(createManyRestaurants));
+
+router.post(
+  "/upload-image/:id",
+  validateObjectId(),
+  upload.single("image"),
+  asyncHandler(uploadRestaurantImage)
+);
 
 export default router;
