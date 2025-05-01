@@ -12,6 +12,7 @@ import restaurantStatsRoutes from "@routes/aggregations/restaurantStatsRoutes.ts
 import menuItemsStatsRoutes from "@routes/aggregations/menuItemsStatsRoutes.ts";
 import reviewStatsRoutes from "@routes/aggregations/reviewsStatsRoutes.ts";
 import orderStatsRoutes from "@routes/aggregations/orderStatsRoutes.ts";
+import imageRoutes from "@routes/imageRoutes.ts";
 
 dotenv.config();
 
@@ -39,5 +40,7 @@ app.use("/api/menu-items/stats", menuItemsStatsRoutes);
 
 app.use("/api/reviews/stats", reviewStatsRoutes);
 app.use("/api/orders/stats", orderStatsRoutes);
+
+app.use("/api/images", imageRoutes);
 
 app.listen(PORT, () => console.log(`Servidor en http://localhost:${PORT}`));
