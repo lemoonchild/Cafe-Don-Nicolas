@@ -138,3 +138,8 @@ dist
 
 # frontend
 frontend/venv/
+frontend/__pycache__/
+frontend/pages/__pycache__/
+frontend/pages/admin/__pycache__/
+frontend/pages/client/__pycache__/
+frontend/pages/utils/__pycache__/

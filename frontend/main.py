@@ -1,12 +1,12 @@
 import streamlit as st
-from pages.login import login_page
-from pages.cliente_restaurants import cliente_restaurants_page
-from pages.cliente_orders import cliente_orders_page
-from pages.cliente_reviews import cliente_reviews_page
-from pages.admin_restaurants import admin_restaurants_page
-from pages.admin_menuitems import admin_menuitems_page
-from pages.admin_orders import admin_orders_page
-from pages.admin_stats import admin_stats_page
+from pages.utils.login import login_page
+from pages.client.cliente_restaurants import cliente_restaurants_page
+from pages.client.cliente_orders import cliente_orders_page
+from pages.client.cliente_reviews import cliente_reviews_page
+from pages.admin.admin_restaurants import admin_restaurants_page
+from pages.admin.admin_menuitems import admin_menuitems_page
+from pages.admin.admin_orders import admin_orders_page
+from pages.admin.admin_stats import admin_stats_page
 
 st.set_page_config(page_title="Don Nicolás App", layout="wide")
 
