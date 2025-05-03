@@ -29,7 +29,7 @@ else:
         choice = st.sidebar.radio("¿Qué deseas administrar hoy?", ["Gestionar Restaurantes","Gestionar Productos","Gestionar Órdenes", "Gestionar Reviews", "Gestionar Usuarios", "Estadísticas"])
         if choice == "Gestionar Restaurantes":  admin_restaurants_page()
         if choice == "Gestionar Productos":     admin_menuitems_page()
-        if choice == "Ver Órdenes":             admin_orders_page()
+        if choice == "Gestionar Órdenes":       admin_orders_page()
         if choice == "Gestionar Reviews":       admin_reviews_page()
         if choice == "Gestionar Usuarios":      admin_users_page()
         if choice == "Estadísticas":            admin_stats_page()

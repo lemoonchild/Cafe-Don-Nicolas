@@ -10,7 +10,7 @@ API_BASE_URL = os.getenv("API_BASE_URL")
 
 def admin_restaurants_page():
     st.header("Gestión de Restaurantes")
-    st.write("Administra los restaurantes disponibles en el sistema.")
+    st.write("Administra los restaurantes disponibles en el sistema. Puedes crear nuevos registros, editarlos o eliminarlos según sea necesario.")
 
     tabs = st.tabs(["📄 Ver", "🔍 Filtrar", "➕ Crear", "✏️ Actualizar", "🗑️ Eliminar", "🖼️ Subir Imagen"])
 
@@ -160,7 +160,7 @@ def admin_restaurants_page():
 
                 # Botón para eliminar este formulario (si hay más de uno)
                 if st.session_state.num_forms > 1:
-                    if st.button(f"Eliminar este restaurante", key=f"delete_{i}"):
+                    if st.button(f"🗑️ Eliminar este restaurante", key=f"delete_{i}"):
                         # Eliminar todos los campos relacionados en st.session_state
                         for field in ["name", "address", "lat", "lng", "open", "close"]:
                             st.session_state.pop(f"{field}_{i}", None)
@@ -176,7 +176,7 @@ def admin_restaurants_page():
                 })
 
         # Botón para agregar más formularios
-        if st.button("Agregar otro restaurante"):
+        if st.button("➕ Agregar otro restaurante"):
             st.session_state.num_forms += 1
             st.rerun()
 
