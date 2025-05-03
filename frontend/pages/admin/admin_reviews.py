@@ -158,3 +158,160 @@ def admin_reviews_page():
                                 val = rev.get(field)
                                 st.markdown(f"- **{field.replace('_',' ').capitalize()}:** {val}  ")
                         st.markdown("---")
+
+    # ─── ➕ Crear ──────────────────────────────────────────────────────────────
+    with tabs[2]:
+        st.subheader("➕ Crear Múltiples Reseñas")
+
+        # — User ID único para todas las reseñas
+        c_user = st.text_input("User ID", key="create_user")
+        if not c_user:
+            st.warning("Debes indicar un User ID antes de añadir reseñas.")
+        else:
+            # — Controlamos en session_state cuántas filas mostramos
+            if "num_reviews" not in st.session_state:
+                st.session_state.num_reviews = 1
+
+            cols = st.columns([1,1,1,1,1])
+            with cols[0]:
+                if st.button("➕ Añadir otra reseña"):
+                    st.session_state.num_reviews += 1
+            with cols[1]:
+                if st.session_state.num_reviews > 1:
+                    if st.button("➖ Quitar última reseña"):
+                        st.session_state.num_reviews -= 1
+
+            # — Recolectamos los datos de cada reseña
+            review_rows = []
+            for i in range(st.session_state.num_reviews):
+                st.markdown(f"**Reseña #{i+1}**")
+                r1 = st.text_input("Restaurant ID", key=f"create_rest_{i}")
+                r2 = st.text_input("Order ID (opcional)", key=f"create_order_{i}")
+                r3 = st.slider("Rating", 1, 5, 3, key=f"create_rating_{i}")
+                r4 = st.text_area("Comentario", key=f"create_comment_{i}")
+                st.markdown("---")
+                review_rows.append((r1, r2, r3, r4))
+
+            # — Botón de envío para todas
+            if st.button(f"Crear {len(review_rows)} reseñas", key="btn_create_many"):
+                # Validamos
+                payloads = []
+                for idx, (rest_id, ord_id, rating, comment) in enumerate(review_rows, start=1):
+                    if not rest_id:
+                        st.error(f"Falta Restaurant ID en la fila #{idx}")
+                        break
+                    payload = {
+                        "user_id":       c_user,
+                        "restaurant_id": rest_id,
+                        "rating":        rating,
+                        "comment":       comment,
+                        "date": datetime.datetime.utcnow()
+                                        .isoformat(timespec="milliseconds") + "Z"
+                    }
+                    if ord_id:
+                        payload["order_id"] = ord_id
+                    payloads.append(payload)
+                else:
+                    # Si todas las filas ok, enviamos en bloque
+                    try:
+                        result = create_many_reviews(payloads)
+                        st.success(f"Se crearon {len(result['result'])} reseñas correctamente.")
+                        # opcional: resetear el formulario
+                        st.session_state.num_reviews = 1
+                    except Exception as e:
+                        st.error(f"Error al crear reseñas: {e}")
+
+    # ─── ✏️ Actualizar ─────────────────────────────────────────────────────────
+    with tabs[3]:
+        st.subheader("✏️ Actualizar Reseña(s)")
+
+        modo_upd = st.radio("Selecciona modo", ["Individual", "Por IDs"], key="upd_mode")
+
+        if modo_upd == "Individual":
+            u_id      = st.text_input("ID de la reseña a actualizar", key="upd_id")
+            u_rating  = st.slider("Nuevo Rating", 1, 5, 3, key="upd_rating")
+            u_comment = st.text_area("Nuevo Comentario", key="upd_comment")
+            if st.button("Actualizar reseña", key="btn_update_single"):
+                if not u_id:
+                    st.error("Debes ingresar el ID de la reseña.")
+                else:
+                    try:
+                        updated = update_review(u_id, {
+                            "rating":  u_rating,
+                            "comment": u_comment
+                        })
+                        st.success(f"Reseña actualizada: {updated['_id']}")
+                    except Exception as e:
+                        st.error(f"Error al actualizar: {e}")
+
+        else:  # modo "Por IDs"
+            u_ids      = st.text_input(
+                "IDs de reseñas (separados por coma)", key="upd_many_ids"
+            )
+            u_rating2  = st.slider("Rating (opcional)", 1, 5, 3, key="upd_many_rating")
+            u_comment2 = st.text_area("Comentario (opcional)", key="upd_many_comment")
+            if st.button("Actualizar múltiples reseñas", key="btn_update_many"):
+                # parsear lista de IDs
+                ids_list = [i.strip() for i in u_ids.split(",") if i.strip()]
+                # armar objeto de actualización
+                update_payload = {}
+                # sólo agregamos campos que efectivamente cambian
+                if u_rating2 is not None:
+                    update_payload["rating"] = u_rating2
+                if u_comment2:
+                    update_payload["comment"] = u_comment2
+
+                if not ids_list:
+                    st.error("Debes ingresar al menos un ID válido.")
+                elif not update_payload:
+                    st.error("Debes especificar Rating o Comentario para actualizar.")
+                else:
+                    try:
+                        res = update_many_reviews_by_ids(ids_list, update_payload)
+                        # el API devuelve { message, result }, donde result.modifiedCount es el número
+                        count = res.get("result", {}).get("modifiedCount", 0)
+                        st.success(f"Se actualizaron {count} reseña(s).")
+                    except Exception as e:
+                        st.error(f"Error al actualizar múltiples: {e}")
+
+    # ─── 🗑️ Eliminar ──────────────────────────────────────────────────────────
+    with tabs[4]:
+        st.subheader("🗑️ Eliminar Reseña(s)")
+
+        modo_del = st.radio(
+            "Selecciona modo",
+            ["Individual", "Por IDs"],
+            horizontal=True,
+            key="del_mode",
+        )
+
+        if modo_del == "Individual":
+            d_id = st.text_input("ID de la reseña a eliminar", key="del_id_single")
+            if st.button("Eliminar reseña", key="btn_delete_single"):
+                if not d_id:
+                    st.error("Debes ingresar el ID de la reseña.")
+                else:
+                    try:
+                        resp = delete_review(d_id)
+                        st.success(resp.get("message", "Reseña eliminada."))
+                    except Exception as e:
+                        st.error(f"Error al eliminar reseña: {e}")
+
+        else:  # modo "Por IDs"
+            d_ids = st.text_input(
+                "IDs de reseñas a eliminar (separados por coma)",
+                key="del_many_ids"
+            )
+            if st.button("Eliminar reseñas", key="btn_delete_many"):
+                # Parseamos la lista de IDs
+                ids_list = [i.strip() for i in d_ids.split(",") if i.strip()]
+                if not ids_list:
+                    st.error("Introduce al menos un ID válido.")
+                else:
+                    try:
+                        result = delete_many_reviews_by_ids(ids_list)
+                        # El API devuelve { message, result: { deletedCount } }
+                        deleted = result.get("result", {}).get("deletedCount", 0)
+                        st.success(f"Se eliminaron {deleted} reseña(s).")
+                    except Exception as e:
+                        st.error(f"Error al eliminar múltiples reseñas: {e}")
