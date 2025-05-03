@@ -130,8 +130,8 @@ def admin_reviews_page():
 
                     # si no hay raw_fields, muestro TODO (con tu formato habitual)
                     if raw_fields is None:
-                        st.markdown(f"- **Usuario:** {user} ({rev["user_id"]})  ")
-                        st.markdown(f"- **Restaurante:** {rest} ({rev["restaurant_id"]})  ")
+                        st.markdown(f"- **Usuario:** {user} ({rev['user_id']})  ")
+                        st.markdown(f"- **Restaurante:** {rest} ({rev['restaurant_id']})  ")
                         if rev.get("order_id"):
                             st.markdown(f"- **Orden relacionada:** {rev['order_id']}  ")
                         st.markdown(f"- **Rating:** {rev['rating']}/5  ")
@@ -142,9 +142,9 @@ def admin_reviews_page():
                         # si el usuario pidió campos, los pinto uno por uno
                         for field in raw_fields:
                             if field == "user_id":
-                                st.markdown(f"- **Usuario:** {user} ({rev["user_id"]})  ")
+                                st.markdown(f"- **Usuario:** {user} ({rev['user_id']})  ")
                             elif field == "restaurant_id":
-                                st.markdown(f"- **Restaurante:** {rest} ({rev["restaurant_id"]})  ")
+                                st.markdown(f"- **Restaurante:** {rest} ({rev['restaurant_id']})  ")
                             elif field == "order_id" and rev.get("order_id"):
                                 st.markdown(f"- **Orden relacionada:** {rev['order_id']}  ")
                             elif field == "rating":
