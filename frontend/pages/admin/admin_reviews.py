@@ -41,13 +41,16 @@ def admin_reviews_page():
                 # Obtener nombres
                 user = fetch_user_by_id(rev["user_id"])
                 rest = fetch_restaurant_by_id(rev["restaurant_id"])
+                user_name = user["name"] if user and "name" in user else "[Usuario Borrado]"
+                rest_name = rest["name"] if rest and "name" in rest else "[Restaurante Borrado]"
+
                 # Parsear fecha
-                dt = datetime.datetime.fromisoformat(rev["date"].replace("Z",""))
+                dt = datetime.datetime.fromisoformat(rev["date"].replace("Z", ""))
                 fecha_str = dt.strftime("%d/%m/%Y %H:%M")
 
                 st.markdown(f"**ID:** {rev['_id']}")
-                st.markdown(f"- **Usuario:** {user['name']} ({rev['user_id']})")  
-                st.markdown(f"- **Restaurante:** {rest['name']} ({rev['restaurant_id']})")  
+                st.markdown(f"- **Usuario:** {user_name} ({rev['user_id']})")
+                st.markdown(f"- **Restaurante:** {rest_name} ({rev['restaurant_id']})")
                 if rev.get("order_id"):
                     st.markdown(f"- **Orden relacionada:** {rev['order_id']}")
                 st.markdown(f"- **Rating:** {rev['rating']}/5")
@@ -55,7 +58,7 @@ def admin_reviews_page():
                 st.markdown(f"- **Comentario:** {rev.get('comment','')}")
                 st.markdown("---")
 
-            col1, col2, col3 = st.columns([1,2,1])
+            col1, col2, col3 = st.columns([1, 2, 1])
             with col1:
                 if st.button("← Anterior", key="prev_rev", disabled=page == 0):
                     st.session_state.rev_page -= 1
