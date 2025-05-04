@@ -16,7 +16,7 @@ from apiCalls.admin.apiAdminUsers import fetch_user_by_id
 from apiCalls.admin.apiAdminRestaurants import fetch_restaurant_by_id
 
 def admin_reviews_page():
-    st.header("🔧 Gestión de Reviews")
+    st.header("Gestión de Reviews")
     tabs = st.tabs(["📄 Ver", "🔍 Filtrar", "➕ Crear", "✏️ Actualizar", "🗑️ Eliminar"])
 
     # ─── 📄 Ver todas ─────────────────────────────────────────────────────────

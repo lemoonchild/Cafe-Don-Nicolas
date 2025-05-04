@@ -34,10 +34,18 @@ export const getOrders = async (req: Request, res: Response) => {
   }
 
   if (dateMin || dateMax) {
-    query.date = {};
-    if (dateMin) query.date.$gte = new Date(dateMin.toString());
-    if (dateMax) query.date.$lte = new Date(dateMax.toString());
-  }
+    const range: any = {};
+    if (dateMin) {
+      const start = new Date(dateMin.toString());
+      if (!isNaN(start.getTime())) range.$gte = start;
+    }
+    if (dateMax) {
+      const end = new Date(dateMax.toString());
+      if (!isNaN(end.getTime())) range.$lte = end;
+    }
+    if (Object.keys(range).length) query.date = range;
+
+  }  
 
   let cursor = Order.find(query);
 

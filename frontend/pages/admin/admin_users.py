@@ -14,7 +14,7 @@ from apiCalls.admin.apiAdminUsers import (
 )
 
 def admin_users_page():
-    st.header("🔧 Gestión de Usuarios")
+    st.header("Gestión de Usuarios")
     tabs = st.tabs(["📄 Ver", "🔍 Filtrar", "➕ Crear", "✏️ Actualizar", "🗑️ Eliminar"])
 
     # ─── 📄 Ver todas ─────────────────────────────────────────────────────────

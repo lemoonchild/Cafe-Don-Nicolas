@@ -30,7 +30,6 @@ def admin_menuitems_page():
         if "menu_page" not in st.session_state:
             st.session_state.menu_page = 0
 
-        # Cargar total de productos (solo IDs o count para no traer todo)
         total_items = 0
         try:
             count_res = requests.get(f"{API_BASE_URL}menu-items", params={"fields": "_id"})
