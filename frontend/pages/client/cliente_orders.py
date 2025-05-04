@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 import os
-from api import fetch_menu_items 
 from dotenv import load_dotenv
 from datetime import datetime, time
 
@@ -28,7 +27,7 @@ def cliente_orders_page():
             st.session_state.order_page = 0
 
         ORDERS_PER_PAGE = 10
-        skip = st.session_state.order_page * ORDERS_PER_PAGE
+        skip = max(st.session_state.order_page * ORDERS_PER_PAGE, 0)
 
         try:
             user_id = st.session_state.user["_id"]
@@ -62,7 +61,9 @@ def cliente_orders_page():
                 if st.button("Siguiente →"):
                     st.session_state.order_page += 1
                     st.rerun()
-        col2.markdown(f"<center>Página {st.session_state.order_page + 1}</center>", unsafe_allow_html=True)
+        current_page = st.session_state.order_page + 1
+        total_pages = current_page + 1 if len(orders) == ORDERS_PER_PAGE else current_page
+        col2.markdown(f"<center>Página {current_page} de {total_pages}</center>", unsafe_allow_html=True)
 
     # === FILTRAR ÓRDENES ===
     with tabs[1]:

@@ -30,3 +30,7 @@ def fetch_user_name_by_id(user_id):
         pass
     return "Usuario eliminado/desconocido"
 
+def create_order(payload: dict):
+    r = requests.post(f"{API_BASE}/orders", json=payload)
+    r.raise_for_status()
+    return r.json()
