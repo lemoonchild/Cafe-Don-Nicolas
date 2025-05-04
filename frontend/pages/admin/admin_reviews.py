@@ -114,7 +114,7 @@ def admin_reviews_page():
                 projection = set(raw_fields + required)
                 kwargs["fields"] = ",".join(projection)
 
-                reviews = fetch_reviews_with_filters(**kwargs)
+            reviews = fetch_reviews_with_filters(**kwargs)
 
             # Muestra los resultados bonitos
             if not reviews:
