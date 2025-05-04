@@ -69,10 +69,11 @@ function generarOrders() {
       total += cantidad * producto.price;
     }
 
+    const generatedDate = randomDate(new Date(2023, 0, 1), new Date());
     const order = {
       user_id: { $oid: userId.$oid },
       restaurant_id: { $oid: restaurantId },
-      date: randomDate(new Date(2023, 0, 1), new Date()), // fechas entre enero 2023 y hoy
+      date: { $date: generatedDate.toISOString() }, // Envío como ISODate para MongoDB
       status: statuses[Math.floor(Math.random() * statuses.length)],
       total: total,
       items: productosSeleccionados,
