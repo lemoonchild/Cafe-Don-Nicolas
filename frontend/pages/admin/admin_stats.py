@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 from apiCalls.admin.apiAdminStats import (
     get_restaurants_stats, get_users_stats, get_menu_items_stats,
     total_sales, average_order_value, count_orders_by_status,
@@ -20,6 +21,7 @@ def admin_stats_page():
         "🍽 Menu Items",
         "🛒 Orders",
         "🌟 Reviews",
+        "🖼 MongoCharts",
     ])
 
     # ─── Restaurantes ─────────────────────────────────────────────────────────
@@ -229,3 +231,48 @@ def admin_stats_page():
               .sort_values("Conteo", ascending=False)
         )
         st.bar_chart(df_rev["Conteo"])
+    
+        # ─── MongoCharts ──────────────────────────────────────────────────────────
+    with resource_tabs[5]:
+        st.subheader("🖼 MongoDB Charts Embebidos")
+
+        # Chart 1
+        components.html(
+            """
+            <iframe 
+              style="background: #21313C;border: none;border-radius: 2px;
+                     box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" 
+              width="640" height="480"
+              src="https://charts.mongodb.com/charts-project-0-vrznjzi/embed/charts?id=21a0a0e5-390f-4d30-a4b3-cf5a195b5ffa&maxDataAge=3600&theme=dark&autoRefresh=true">
+            </iframe>
+            """,
+            height=500
+        )
+
+        # Chart 2
+        components.html(
+            """
+            <iframe 
+              style="background: #21313C;border: none;border-radius: 2px;
+                     box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" 
+              width="640" height="480"
+              src="https://charts.mongodb.com/charts-project-0-vrznjzi/embed/charts?id=a70fe192-2de3-41f5-aa02-1012e3217d86&maxDataAge=3600&theme=dark&autoRefresh=true">
+            </iframe>
+            """,
+            height=500
+        )
+
+        # Chart 3
+        components.html(
+            """
+            <iframe 
+              style="background: #21313C;border: none;border-radius: 2px;
+                     box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" 
+              width="640" height="480"
+              src="https://charts.mongodb.com/charts-project-0-vrznjzi/embed/charts?id=935f8a69-d8ea-41c3-99c6-283369872e94&maxDataAge=3600&theme=dark&autoRefresh=true">
+            </iframe>
+            """,
+            height=500
+        )
+
+
